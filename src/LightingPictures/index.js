@@ -13,3 +13,4 @@ class LightingPicture extends Component {
     }
 }
 export default LightingPicture;
+ 
