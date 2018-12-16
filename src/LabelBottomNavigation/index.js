@@ -31,7 +31,7 @@ class LabelBottomNavigation extends React.Component {
       <BottomNavigation justify = "center" value={value} onChange={this.handleChange} className={classes.root}>
         <BottomNavigationAction label="Recent Work" value="recents" icon={<RestoreIcon />} />
         <BottomNavigationAction label="Favorite Work" value="favorites" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Email" value="email" icon={<LocationOnIcon />} />
+        <BottomNavigationAction label="Pin map of different areas I've been" value="Pin map of different areas I've been" icon={<LocationOnIcon />} />
       </BottomNavigation>
     );
   }
