@@ -4,7 +4,7 @@ import Divider from '@material-ui/core/Divider';
 class AboutContainer extends Component {
     render(){
         return(
-    <div>
+    <div class="back">
     <br />
       <h1>This is where Andy will talk about how fuckin sweet he is. </h1>
       	<Divider />

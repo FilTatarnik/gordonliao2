@@ -4,7 +4,7 @@ import Divider from '@material-ui/core/Divider';
 class SpeakerContainer extends Component {
     render(){
         return(
-    <div>
+    <div class="back">
     <br />
       <h1>This is where Andy will show his sick, fuckin, speakers. </h1>
       	<Divider />
