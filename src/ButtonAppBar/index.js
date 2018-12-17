@@ -11,6 +11,8 @@ import { Link } from 'react-router-dom'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import purple from '@material-ui/core/colors/purple'
 import grey from '@material-ui/core/colors/grey'
+import scrollToComponent from 'react-scroll-to-component';
+
 
 import './styles.css'
 
@@ -34,10 +36,13 @@ const styles = {
     marginRight: 20,
   },
 };
-
+function componentDidMount() {
+  scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease:'inCirc'});
+}
 function ButtonAppBar(props) {
   const { classes } = props;
   return (
+
     <div class="bar">
     <div className={classes.root}>
     <MuiThemeProvider theme={theme}>
@@ -76,6 +81,7 @@ function ButtonAppBar(props) {
       <br/>
     </div>
     </div>
+    
 
   );
 }

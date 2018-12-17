@@ -12,7 +12,11 @@ import Album from './Album';
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import Divider from '@material-ui/core/Divider';
+
 import './App.css';
+
+
+
 
 // we need to map the `scale` prop we define below
 // to the transform style property
