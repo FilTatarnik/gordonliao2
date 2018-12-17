@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
-
+import Divider from '@material-ui/core/Divider';
 
 class SpeakerContainer extends Component {
     render(){
         return(
-            <h1>Speaker Container</h1>
+    <div>
+    <br />
+      <h1>This is where Andy will show his sick, fuckin, speakers. </h1>
+      	<Divider />
+      	<br />
+    
+      <br />
+      	<Divider />
+    </div>
         )
     }
 }
