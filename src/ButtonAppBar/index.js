@@ -38,6 +38,7 @@ const styles = {
 function ButtonAppBar(props) {
   const { classes } = props;
   return (
+    <div class="bar">
     <div className={classes.root}>
     <MuiThemeProvider theme={theme}>
       <AppBar color="primary" position="static">
@@ -61,6 +62,8 @@ function ButtonAppBar(props) {
         </Toolbar>
       </AppBar>
       </MuiThemeProvider>
+      <br/>
+    </div>
     </div>
 
   );

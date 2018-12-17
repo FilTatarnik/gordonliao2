@@ -2,6 +2,9 @@ a {
 	color: white;
 	text-decoration: none;
 }
+.bar {
+	background-color: #dd33fa;
+}
 .appbar {
 	background-color: #3F51B5;
 }
@@ -12,3 +15,4 @@ a {
   right: 24px;
   border-radius: 50%;
 }
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Monoton|Playfair+Display+SC");
