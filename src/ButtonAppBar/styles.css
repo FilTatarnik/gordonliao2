@@ -2,8 +2,8 @@ a {
 	color: white;
 	text-decoration: none;
 }
-appbar {
-	color: black;
+.appbar {
+	background-color: black;
 }
 .logo {
 	height: 100px;
