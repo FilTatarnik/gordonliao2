@@ -83,12 +83,10 @@ function Album(props) {
         <div className={classes.heroUnit}>
           <div className={classes.heroContent}>
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Album layout
+              Andrew Watts
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              Something short and leading about the collection below—its contents, the creator, etc.
-              Make it short and sweet, but not too short so folks don&apos;t simply skip over it
-              entirely.
+              Something something, strive for greatness. Something something Andrew's mission statement 
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={16} justify="center">
@@ -119,10 +117,10 @@ function Album(props) {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      Job Name. Maybe like Napperville Lights.
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      This is going to be where Andrew puts the description of his jobs that he does.
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -145,7 +143,7 @@ function Album(props) {
           Footer
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          This is where Andrew is going to have his social media buttons
         </Typography>
       </footer>
       {/* End footer */}
