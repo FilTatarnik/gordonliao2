@@ -16,7 +16,7 @@ import './styles.css'
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#3F51B5' }, // Purple and green play nicely together.
+    primary: { main: '#000000' }, // Purple and green play nicely together.
     secondary: { main: '#11cb5f' }, // This is just green.A700 as hex.
   },
   typography: { useNextVariants: true },
