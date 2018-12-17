@@ -27,8 +27,8 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar color="secondary" position="static">
-        <Toolbar>
+      <AppBar position="static">
+        <Toolbar color="secondary">
         <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
