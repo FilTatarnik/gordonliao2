@@ -12,7 +12,11 @@ import Album from './Album';
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import Divider from '@material-ui/core/Divider';
+import ReallySmoothScroll from 'really-smooth-scroll'
 import './App.css';
+
+
+ReallySmoothScroll.shim()
 
 // we need to map the `scale` prop we define below
 // to the transform style property
@@ -54,6 +58,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <ButtonAppBar />
           <AnimatedSwitch
             atEnter={bounceTransition.atEnter}
