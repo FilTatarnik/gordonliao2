@@ -6,10 +6,10 @@ import LightingPictures from './LightingPictures';
 import LabelBottomNavigation from './LabelBottomNavigation';
 import {Route, Switch} from 'react-router-dom'
 import AboutContainer from './AboutContainer'
+import Album from './Album';
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import Divider from '@material-ui/core/Divider';
-import Album from './Album';
 import './App.css';
 
 class App extends Component {
@@ -24,8 +24,8 @@ class App extends Component {
           <Route exact path="/speakers" component={SpeakerContainer}/>
           <Route exact path="/home" component={LightingPictures}/>
         </Switch>
-        <Divider />
         <Album />
+        <Divider />
         <LabelBottomNavigation />
       </div>
     );

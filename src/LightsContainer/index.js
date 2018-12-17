@@ -3,17 +3,16 @@ import Divider from '@material-ui/core/Divider';
 
 class LightsContainer extends Component {
     render(){
-        return(
-    <div>
-    <br />
-      <h1>This is where Andy will show his dope ass lights </h1>
-      	<Divider />
-      	<br />
-    
-      <br />
-      	<Divider />
-    </div>
-        )
+    return(
+		    <div>
+		    	<br />
+		      		<h1>This is where Andy will show his dope ass lights </h1>
+		      	<Divider />
+		      	<br />
+		      	<br />
+		      	<Divider />
+		    </div>
+    )
     }
 }
 export default LightsContainer;
