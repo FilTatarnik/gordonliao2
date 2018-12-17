@@ -44,7 +44,7 @@ function ButtonAppBar(props) {
         <Toolbar>
         <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            Watts Uplighting
+            
           </Typography>
           <Button color="inherit">
           <Link to='/home'>Home</Link>
