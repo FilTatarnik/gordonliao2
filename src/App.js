@@ -71,10 +71,22 @@ class App extends Component {
           <Route exact path="/lights" component={LightsContainer}/>
           <Route exact path="/speakers" component={SpeakerContainer}/>
           <Route exact path="/home" component={LightingPictures}/>
+        <br />
+        <br />
+        <br />
         </AnimatedSwitch>
-        <Album />
-        <Divider />
-      </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        </div>
+
+
     );
   }
 }

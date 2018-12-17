@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
 import Divider from '@material-ui/core/Divider';
+import SimpleModal from '../SimpleModal';
 import './styles.css'
 
 
@@ -16,6 +17,8 @@ class LightingPicture extends Component {
       	<br />
       <br />
       	<Divider />
+      <br />
+        <SimpleModal open={this.props.open} />
     </div>
         )
     }
