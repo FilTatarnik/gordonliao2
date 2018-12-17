@@ -13,6 +13,8 @@ import Grid from '@material-ui/core/Grid';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import { SocialIcon } from 'react-social-icons';
+
 
 const styles = theme => ({
   appBar: {
@@ -72,78 +74,21 @@ function Album(props) {
       <CssBaseline />
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <CameraIcon className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            Album layout
-          </Typography>
         </Toolbar>
       </AppBar>
       <main>
-        {/* Hero unit */}
-        <div className={classes.heroUnit}>
-          <div className={classes.heroContent}>
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Andrew Watts
-            </Typography>
-            <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              Something something, strive for greatness. Something something Andrew's mission statement 
-            </Typography>
-            <div className={classes.heroButtons}>
-              <Grid container spacing={16} justify="center">
-                <Grid item>
-                  <Button variant="contained" color="primary">
-                    Main call to action
-                  </Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Secondary action
-                  </Button>
-                </Grid>
-              </Grid>
-            </div>
-          </div>
-        </div>
-        <div className={classNames(classes.layout, classes.cardGrid)}>
-          {/* End hero unit */}
-          <Grid container spacing={40}>
-            {cards.map(card => (
-              <Grid item key={card} sm={6} md={4} lg={3}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://i.imgur.com/iZpY2CKm.jpg" // eslint-disable-line max-len
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Job Name. Maybe like Napperville Lights.
-                    </Typography>
-                    <Typography>
-                      This is going to be where Andrew puts the description of his jobs that he does.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
-                      View
-                    </Button>
-                    <Button size="small" color="primary">
-                      Edit
-                    </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
+        <div>
         </div>
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          This is where Andrew is going to have his social media buttons
+          <SocialIcon network="facebook" style={{padding: 10}} />
+          
+          <SocialIcon network="instagram" color="lightorange"/>
+          <SocialIcon network="snapchat" />
+
+          <SocialIcon network="twitter" color="lightblue"/>
         </Typography>
       </footer>
       {/* End footer */}
