@@ -17,11 +17,18 @@ const styles = {
 class LabelBottomNavigation extends React.Component {
   state = {
     value: 'recents',
+    showRecentModal: false
   };
 
   handleChange = (event, value) => {
     this.setState({ value });
   };
+
+  open = (e) => {
+    this.setState({
+      showRecentModal: true
+    })   
+  }
 
   render() {
     const { classes } = this.props;
@@ -29,7 +36,7 @@ class LabelBottomNavigation extends React.Component {
 
     return (
       <BottomNavigation justify = "center" value={value} onChange={this.handleChange} className={classes.root}>
-        <BottomNavigationAction label="Recent Work" value="recents" icon={<RestoreIcon />} />
+        <BottomNavigationAction label="Recent Work" value="recents" open={this.open} icon={<RestoreIcon />} />
         <BottomNavigationAction label="Favorite Work" value="favorites" icon={<FavoriteIcon />} />
         <BottomNavigationAction label="Pin map of different areas I've been" value="Pin map of different areas I've been" icon={<LocationOnIcon />} />
       </BottomNavigation>
