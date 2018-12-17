@@ -32,7 +32,6 @@ class App extends Component {
         </AnimatedSwitch>
         <Album />
         <Divider />
-        <LabelBottomNavigation />
       </div>
     );
   }
