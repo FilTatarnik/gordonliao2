@@ -15,6 +15,13 @@ a {
   right: 24px;
   border-radius: 50%;
 }
+/*.switch-wrapper {
+  position: relative;
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+}*/
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Monoton|Playfair+Display+SC");
 a {
   border-bottom: 1px solid black;
