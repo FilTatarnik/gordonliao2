@@ -43,9 +43,10 @@ function ButtonAppBar(props) {
     <MuiThemeProvider theme={theme}>
       <AppBar color="primary" position="static">
         <Toolbar>
+        <Link to='/home'>
         <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
+        </Link>
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            
           </Typography>
           <Button color="inherit">
           <Link to='/home'>Home</Link>
