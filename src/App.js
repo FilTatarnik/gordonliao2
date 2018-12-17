@@ -8,6 +8,7 @@ import {Route, Switch} from 'react-router-dom'
 import AboutContainer from './AboutContainer'
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
+import Divider from '@material-ui/core/Divider';
 import './App.css';
 
 class App extends Component {
@@ -15,13 +16,15 @@ class App extends Component {
     return (
       <div className="App">
         <ButtonAppBar />
-        <LightingPictures />
-        <LabelBottomNavigation />
+        
         <Switch>
           <Route exact path="/about" component={AboutContainer}/>
           <Route exact path="/lights" component={LightsContainer}/>
           <Route exact path="/speakers" component={SpeakerContainer}/>
+          <Route exact path="/home" component={LightingPictures}/>
         </Switch>
+        <Divider />
+        <LabelBottomNavigation />
       </div>
     );
   }

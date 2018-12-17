@@ -36,6 +36,9 @@ function ButtonAppBar(props) {
             Watts Uplighting
           </Typography>
           <Button color="inherit">
+          <Link to='/home'>Home</Link>
+          </Button>
+          <Button color="inherit">
           <Link to='/about'>About</Link>
           </Button>
           <Button color="inherit">
