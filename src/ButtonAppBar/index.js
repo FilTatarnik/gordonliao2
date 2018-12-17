@@ -36,7 +36,6 @@ function ButtonAppBar(props) {
           <Button color="inherit">About</Button>
           <Button color="inherit">Lights</Button>
           <Button color="inherit">Speakers</Button>
-          <Button color="inherit">About</Button>
         </Toolbar>
       </AppBar>
     </div>
