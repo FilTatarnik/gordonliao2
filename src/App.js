@@ -59,6 +59,18 @@ class App extends Component {
     return (
       <div className="App">
           <ButtonAppBar />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <LightingPictures />
           <br />
           <br />
