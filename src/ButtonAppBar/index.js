@@ -8,7 +8,19 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom'
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import purple from '@material-ui/core/colors/purple'
+import grey from '@material-ui/core/colors/grey'
+
 import './styles.css'
+
+const theme = createMuiTheme({
+  palette: {
+    primary: { main: grey[900] }, // Purple and green play nicely together.
+    secondary: { main: '#11cb5f' }, // This is just green.A700 as hex.
+  },
+  typography: { useNextVariants: true },
+});
 
 const styles = {
   root: {
@@ -27,8 +39,9 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar color="secondary">
+    <MuiThemeProvider theme={theme}>
+      <AppBar color="primary" position="static">
+        <Toolbar>
         <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
@@ -50,6 +63,7 @@ function ButtonAppBar(props) {
           </Button>
         </Toolbar>
       </AppBar>
+      </MuiThemeProvider>
     </div>
 
   );
