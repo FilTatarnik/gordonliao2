@@ -29,6 +29,7 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
       <AppBar color="secondary" position="static">
         <Toolbar>
+        <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>

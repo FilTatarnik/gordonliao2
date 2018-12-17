@@ -5,3 +5,7 @@ a {
 appbar {
 	color: black;
 }
+.logo {
+	height: 100px;
+	width: 120px;
+}
