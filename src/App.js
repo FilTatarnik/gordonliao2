@@ -9,6 +9,7 @@ import AboutContainer from './AboutContainer'
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import Divider from '@material-ui/core/Divider';
+import Album from './Album';
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path="/home" component={LightingPictures}/>
         </Switch>
         <Divider />
+        <Album />
         <LabelBottomNavigation />
       </div>
     );
