@@ -13,6 +13,8 @@ import Grid from '@material-ui/core/Grid';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import { SocialIcon } from 'react-social-icons';
+
 
 const styles = theme => ({
   appBar: {
@@ -80,11 +82,13 @@ function Album(props) {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          This is where Andrew is going to have his social media buttons
+          <SocialIcon network="facebook" style={{padding: 10}} />
+          
+          <SocialIcon network="instagram" color="lightorange"/>
+          <SocialIcon network="snapchat" />
+
+          <SocialIcon network="twitter" color="lightblue"/>
         </Typography>
       </footer>
       {/* End footer */}
