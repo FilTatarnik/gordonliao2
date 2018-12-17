@@ -43,23 +43,33 @@ function ButtonAppBar(props) {
     <MuiThemeProvider theme={theme}>
       <AppBar color="primary" position="static">
         <Toolbar>
+        <div class="logoclass">
         <Link to='/home'>
         <img class="logo" src="https://i.imgur.com/YMDoch1.png"/>
         </Link>
+        </div>
           <Typography variant="h6" color="inherit" className={classes.grow}>
           </Typography>
+          <div class="home">
           <Button color="inherit">
           <Link to='/home'>Home</Link>
           </Button>
+          </div>
+          <div class="about">
           <Button color="inherit">
           <Link to='/about'>About</Link>
           </Button>
+          </div>
+          <div class="lights">
           <Button color="inherit">
           <Link to='/lights'>Lights</Link>
           </Button>
+          </div>
+          <div class="speaker">
           <Button color="inherit">
           <Link to='/speakers'>Speakers</Link>
           </Button>
+          </div>
         </Toolbar>
       </AppBar>
       </MuiThemeProvider>
