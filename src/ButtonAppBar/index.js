@@ -40,7 +40,7 @@ function aboutScroll() {
   window.scrollTo(0, 953);
 }
 function lightsScroll() {
-  window.scrollTo(0, 1973);
+  window.scrollTo(0, 1900);
 }
 function speakerScroll() {
   window.scrollTo(0, 2561);
@@ -55,7 +55,7 @@ function speakerScroll() {
         <Toolbar>
 
           <div className="logoclass">
-            <Link to='/home' >
+            <Link to='/home' onClick={topScroll}>
               <img className="logo" src="https://i.imgur.com/YMDoch1.png" alt=""/>
             </Link>
           </div>
