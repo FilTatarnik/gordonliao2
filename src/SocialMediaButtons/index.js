@@ -3,6 +3,8 @@ import { SocialIcon } from 'react-social-icons';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import './styles.css'
+import { Container, Row, Col } from 'reactstrap';
+
 class SocialMediaButtons extends Component {
     render(){
         return(
@@ -19,9 +21,13 @@ class SocialMediaButtons extends Component {
 			          	<SocialIcon url="http://instagram.com/midwest_watts" color="orange" />
 			          
 			          	<SocialIcon url="http://facebook.com/wattsmidwest" />
-			          <Typography variant="subtitle3" align="right" component="p">
-			          	<h5>Let our passion add value to yours! We currently rent and provide lighting from simple par cans to moving heads! We now also offer truss and sound rentals!</h5>
-			          </Typography>
+			           <div class="row">
+			           <Row>
+          				<Col sm={{ size: 'auto', offset: 1 }}>Let our passion add value to yours! We currently rent and provide lighting from simple par cans to moving heads! We now also offer truss and sound rentals!</Col>
+          
+        				</Row>
+			         </div>	
+			          
 			          
 			        </Typography>
 			        <Divider/>
