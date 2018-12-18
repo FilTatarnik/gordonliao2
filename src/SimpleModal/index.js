@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
+import './styles.css'
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -49,7 +50,8 @@ class SimpleModal extends React.Component {
     return (
       <div>
         <Typography gutterBottom>Click to get the full Modal experience!</Typography>
-        <Button onClick={this.handleOpen} color={"white"}>Open Modal</Button>
+
+        <button class="modal" onClick={this.handleOpen}>Open Modal</button>
         <Modal
           aria-labelledby="simple-modal-title"
           aria-describedby="simple-modal-description"
