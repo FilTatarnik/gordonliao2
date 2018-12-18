@@ -50,7 +50,7 @@ class SimpleModal extends React.Component {
       <div>
         <Typography gutterBottom>Click to get the full Modal experience!</Typography>
 
-        <button class="modal" onClick={this.handleOpen}>Open Modal</button>
+        <button className="modal" onClick={this.handleOpen}>Open Modal</button>
         <Modal
           aria-labelledby="simple-modal-title"
           aria-describedby="simple-modal-description"

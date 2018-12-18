@@ -35,6 +35,11 @@ const styles = {
 function ButtonAppBar(props) {
   const { classes } = props;
 
+
+  // window.addEventListener('scroll', () => {
+  //   const scrolled = window.scrollY;
+  // })
+
 function topScroll() {
   window.scrollTo({
     top: 0,
@@ -43,19 +48,19 @@ function topScroll() {
 }
 function aboutScroll() {
   window.scrollTo({
-    top: 953,
+    top: 767.5,
     behavior: 'smooth'
   });
 }
 function lightsScroll() {
   window.scrollTo({
-    top: 1900,
+    top: 1787.5,
     behavior: 'smooth'
   });
 }
 function speakerScroll() {
   window.scrollTo({
-    top: 2561,
+    top: 2471.25,
     behavior: 'smooth'
   });
 }

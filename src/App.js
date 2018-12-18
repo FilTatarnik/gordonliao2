@@ -4,8 +4,6 @@ import LightingPictures from './LightingPictures'
 import AboutContainer from './AboutContainer'
 import SimpleSlider from './SimpleSlider'
 import Album from './Album'
-import LightsContainer from './LightsContainer'
-import SpeakerContainer from './SpeakerContainer'
 import './App.css'
 
 
