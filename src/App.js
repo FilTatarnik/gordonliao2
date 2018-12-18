@@ -153,7 +153,7 @@ class App extends Component {
           <br />
           <br />
           <br />
-          
+          <SocialMediaButtons/>
         </div>
 
 

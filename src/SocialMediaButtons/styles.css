@@ -1,0 +1,13 @@
+.logo {
+	height: 110px;
+	width: 150px;
+	position: relative;
+  right: 15px;
+}
+.bottompics {
+	height: 80px;
+	width: 150px;
+	position: relative;
+  right: 15px;
+  padding: 20px;
+}
