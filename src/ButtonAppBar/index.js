@@ -34,16 +34,28 @@ function ButtonAppBar(props) {
   const { classes } = props;
 
 function topScroll() {
-  window.scrollTo(0, 0);
+  window.scrollTo({
+    top: 0,
+     behavior: 'smooth'
+  });
 }
 function aboutScroll() {
-  window.scrollTo(0, 953);
+  window.scrollTo({
+    top: 953,
+    behavior: 'smooth'
+  });
 }
 function lightsScroll() {
-  window.scrollTo(0, 1900);
+  window.scrollTo({
+    top: 1900,
+    behavior: 'smooth'
+  });
 }
 function speakerScroll() {
-  window.scrollTo(0, 2561);
+  window.scrollTo({
+    top: 2561,
+    behavior: 'smooth'
+  });
 }
   return (
 
