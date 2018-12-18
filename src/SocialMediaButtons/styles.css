@@ -11,3 +11,12 @@
   right: 15px;
   padding: 20px;
 }
+.foot {
+	position: relative;
+	// top: 20px;
+	background-color: white;
+	padding: 20px;
+}
+.email {
+	color: blue;
+}

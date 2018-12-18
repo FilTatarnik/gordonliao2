@@ -6,18 +6,22 @@ import './styles.css'
 class SocialMediaButtons extends Component {
     render(){
         return(
-	        <div>
+	        <div class="foot">
 			      <Divider />
 			      <footer>
-			      <Typography variant="subtitle1" align="left" color="textSecondary" component="p">
+			      <Typography variant="subtitle3" align="left" component="p">
 			      		<h2>Andrew Watts</h2>
+			      		<h4>Owner/Operator</h4>
+			      		<h4>(630)-272-6246</h4>
+			      		<a class="email" href="mailto: Andrew@MidwestWatts.com">Email</a>
 			      		</Typography>
 			        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
 			          	<SocialIcon url="http://instagram.com/midwest_watts" />
 			          
 			          	<SocialIcon url="http://facebook.com/wattsmidwest" />
-			          
-
+			          <Typography variant="subtitle3" align="right" component="p">
+			          	<h5>Let our passion add value to yours! We currently rent and provide lighting from simple par cans to moving heads! We now also offer truss and sound rentals!</h5>
+			          </Typography>
 			          
 			        </Typography>
 			        <Divider/>
