@@ -7,9 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-
-
-
 import './styles.css'
 
 const theme = createMuiTheme({
@@ -32,51 +29,71 @@ const styles = {
     marginRight: 20,
   },
 };
-// function componentDidMount() {
-//   scrollToComponent(this.ButtonAppBar, { offset: 0, align: 'middle', duration: 500, ease:'inCirc'});
-// }
+
 function ButtonAppBar(props) {
   const { classes } = props;
+
+function topScroll() {
+  window.scrollTo(0, 0);
+}
+function aboutScroll() {
+  window.scrollTo(0, 953);
+}
+function lightsScroll() {
+  window.scrollTo(0, 1973);
+}
+function speakerScroll() {
+  window.scrollTo(0, 2561);
+}
   return (
 
-    <div className="bar">
-    <div className={classes.root}>
+<div className="bar">
+  <div className={classes.root}>
     <MuiThemeProvider theme={theme}>
       <AppBar color="primary" position="static">
+
         <Toolbar>
-        <div className="logoclass">
-        <Link to='/home'>
-        <img className="logo" src="https://i.imgur.com/YMDoch1.png" alt=""/>
-        </Link>
-        </div>
-          <Typography variant="h6" color="inherit" className={classes.grow}>
-          </Typography>
-          <div id="home">
-          <Button color="inherit" activeClass="active" className="homebutton" to="home" spy={true} smooth={true} duration={500} >
-          <Link to='/home'>Home</Link>
-          </Button>
+
+          <div className="logoclass">
+            <Link to='/home' >
+              <img className="logo" src="https://i.imgur.com/YMDoch1.png" alt=""/>
+            </Link>
           </div>
-          <div id="about">
-          <Button color="inherit" >
-          <Link to='/about'>About</Link>
-          </Button>
-          </div>
-          <div id="lights">
-          <Button color="inherit" >
-          <Link to='/lights'>Lights</Link>
-          </Button>
-          </div>
-          <div id="speaker">
-          <Button color="inherit" >
-          <Link to='/speakers'>Speakers</Link>
-          </Button>
-          </div>
+
+            <Typography variant="h6" color="inherit" className={classes.grow}>
+            </Typography>
+
+            <div id="home" >
+              <Button color="inherit" onClick={topScroll}>
+                <Link to='/home'>Home</Link>
+              </Button>
+            </div>
+
+            <div id="about">
+              <Button color="inherit" onClick={aboutScroll}>
+                <Link to='/about'>About</Link>
+              </Button>
+            </div>
+
+            <div id="lights">
+              <Button color="inherit" onClick={lightsScroll}>
+                <Link to='/lights'>Lights</Link>
+              </Button>
+            </div>
+
+            <div id="speaker">
+              <Button color="inherit" onClick={speakerScroll}>
+                <Link to='/speakers'>Speakers</Link>
+              </Button>
+            </div>
+
         </Toolbar>
+
       </AppBar>
-      </MuiThemeProvider>
+    </MuiThemeProvider>
       <br/>
-    </div>
-    </div>
+  </div>
+</div>
     
 
   );
