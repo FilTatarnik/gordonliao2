@@ -5,6 +5,7 @@ import AboutContainer from './AboutContainer'
 import Album from './Album';
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
+import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
 
 
@@ -155,6 +156,7 @@ class App extends Component {
           <br />
           <br />
           <br />
+          
         </div>
 
 
