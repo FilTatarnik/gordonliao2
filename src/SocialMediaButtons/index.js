@@ -16,7 +16,7 @@ class SocialMediaButtons extends Component {
 			      		<a class="email" href="mailto: Andrew@MidwestWatts.com">Email</a>
 			      		</Typography>
 			        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-			          	<SocialIcon url="http://instagram.com/midwest_watts" />
+			          	<SocialIcon url="http://instagram.com/midwest_watts" color="orange" />
 			          
 			          	<SocialIcon url="http://facebook.com/wattsmidwest" />
 			          <Typography variant="subtitle3" align="right" component="p">
