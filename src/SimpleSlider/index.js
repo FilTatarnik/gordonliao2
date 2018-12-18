@@ -8,6 +8,7 @@ class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      autoplay: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -19,16 +20,17 @@ class SimpleSlider extends Component {
         <h2> Single Item</h2>
         <Slider {...settings}>
           <div className="indvSlider">
-            <h3>1</h3>
+            <img src="https://i.imgur.com/I1wluQEl.jpg" alt=""/>
+
           </div>
           <div className="indvSlider">
-            <h3>2</h3>
+            <img src="https://i.imgur.com/iZpY2CKl.jpg" alt=""/>
           </div>
           <div className="indvSlider">
-            <h3>3</h3>
+            <img src="https://i.imgur.com/g8f8wjml.jpg" alt="" />
           </div>
           <div className="indvSlider">
-            <h3>4</h3>
+            <img src="https://i.imgur.com/WGfNM7hl.jpg" alt=""/>
           </div>
           <div className="indvSlider">
             <h3>5</h3>
