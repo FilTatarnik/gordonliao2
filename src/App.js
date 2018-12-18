@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import ButtonAppBar from './ButtonAppBar';
-import LightingPictures from './LightingPictures';
+import React, { Component } from 'react'
+import ButtonAppBar from './ButtonAppBar'
+import LightingPictures from './LightingPictures'
 import AboutContainer from './AboutContainer'
-import Album from './Album';
+import SimpleSlider from './SimpleSlider'
+import Album from './Album'
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
+
 import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
+
 
 
 
@@ -29,12 +32,6 @@ class App extends Component {
           <br />
           <br />
           <LightingPictures />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
           <br />
           <br />
           <br />
@@ -92,7 +89,7 @@ class App extends Component {
           <br />
           <br />
           <br />          
-          <LightsContainer />
+          <SimpleSlider />
           <br />
           <br />
           <br />
@@ -124,7 +121,7 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <SpeakerContainer />
+          <SimpleSlider />
           <br />
           <br />
           <br />
