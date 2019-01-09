@@ -89,7 +89,7 @@ class App extends Component {
           <br />
           <br />
           <br />          
-          <SimpleSlider />
+          
           <br />
           <br />
           <br />

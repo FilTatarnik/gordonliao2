@@ -21,7 +21,9 @@
 	color: blue;
 }
 .row {
-	// float: right;
+	float: right;
 	color: black;
-	// margin-left: 50%;
+	margin-left: 40%;
+	
+	padding-bottom: 20;
 }
