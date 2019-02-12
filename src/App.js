@@ -89,7 +89,7 @@ class App extends Component {
           <br />
           <br />
           <br />          
-          
+          To provide synergy between lighting and sound services to fulfill our customers visions and needs
           <br />
           <br />
           <br />
