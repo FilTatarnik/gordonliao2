@@ -10,14 +10,13 @@ class LightingPicture extends Component {
         return(
           <div className="back">
             <br />
-              <h1 className="motivate">HELP OTHERS ACHIEVE THEIR DREAMS </h1>
-              <h1 className="motivate"> AND YOU WILL ACHIEVE YOURS.</h1>
+              <h1 className="motivate">TO PROVIDE SYNERGY BETWEEN LIGHTING AND SOUND SERVICES </h1>
+              <h1 className="motivate"> TO FULFILL OUR CUSTOMERS VISIONS AND NEEDS.</h1>
                 <Divider />
               	<br />
                 <br />
               	<Divider />
                 <br />
-                <SimpleModal open={this.props.open} />
           </div>
         )
     }

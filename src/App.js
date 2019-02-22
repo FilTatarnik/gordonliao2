@@ -6,6 +6,7 @@ import SimpleSlider from './SimpleSlider'
 import Album from './Album'
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
+import CardComponent from './CardComponent'
 
 import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
@@ -41,7 +42,6 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <Album />
           <br />
           <br />
           <br />
@@ -58,6 +58,7 @@ class App extends Component {
           <br />
           <br />
           <AboutContainer />
+
           <br />
           <br />
           <br />
@@ -73,7 +74,6 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <Album />
           <br />
           <br />
           <br />
@@ -89,7 +89,9 @@ class App extends Component {
           <br />
           <br />
           <br />          
-          To provide synergy between lighting and sound services to fulfill our customers visions and needs
+          <CardComponent />
+          <br />
+          <CardComponent />
           <br />
           <br />
           <br />
@@ -105,7 +107,6 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <Album />
           <br />
           <br />
           <br />
@@ -121,7 +122,7 @@ class App extends Component {
           <br />
           <br />
           <br />
-          
+          <LightsContainer />
           <br />
           <br />
           <br />
@@ -137,7 +138,6 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <Album />
           <br />
           <br />
           <br />

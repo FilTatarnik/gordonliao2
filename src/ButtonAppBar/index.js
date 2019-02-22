@@ -96,13 +96,13 @@ function speakerScroll() {
 
             <div id="lights">
               <Button color="inherit" onClick={lightsScroll}>
-                <Link to='/lights'>Lights</Link>
+                <Link to='/lights'>Rentals</Link>
               </Button>
             </div>
 
             <div id="speaker">
               <Button color="inherit" onClick={speakerScroll}>
-                <Link to='/speakers'>Speakers</Link>
+                <Link to='/speakers'>Contact</Link>
               </Button>
             </div>
 
