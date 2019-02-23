@@ -17,14 +17,14 @@ class LightsContainer extends Component {
 		}
 	}
 	getLights = async () => {
-		const light = await fetch('http://localhost:9292/api/lighting', {
-			credentials: 'include'
-		});
-		const lightParsedJSON = await light.json();
+		const response = await fetch('http://localhost:9292/api/lighting');
+		const lightParsedJSON = await response.json();
+		console.log(lightParsedJSON);
+		// return lightParsedJSON
 		this.setState({
 			lights: lightParsedJSON.light
 		})
-		console.log(this.state.lights);
+		
 		// console.log(lightParsedJSON);
 		// this.setState({
 		// 	email: ownerParsedJSON.email,
@@ -39,18 +39,19 @@ class LightsContainer extends Component {
 	   const lightList = this.state.lights.map((light, i) => {
 		   	return(
 		   		<div key={i}>
-		   			<Card>
-		   			{light}
-		   			</Card>
+		   			<h1>
+		   			{light.name}
+		   			</h1>
 		   		</div>
 		   		)	
 	   })
     return(
 		    <div className="back">
 		    	<br />
-		      		<Card>
-		      			{lightList}
-		      		</Card>
+		    	<h1>This is where the light json data will go </h1>
+		      		
+		      			<h1>{lightList}</h1>
+		      		
 		      	<Divider />
 		      	<br />
 		      	<br />
