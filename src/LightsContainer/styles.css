@@ -1,5 +1,5 @@
-.lightCard {
-	max-width: 250px;
-	margin: 0 auto;
-	display: block;
+.lightCardDiv {
+display:block;
+max-width: 50%;
+color: white;
 }

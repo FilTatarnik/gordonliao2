@@ -9,19 +9,13 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
 import './styles.css'
 
 const styles = {
-  card: {
-    maxWidth: 400,
-  },
-  media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
-  },
-  actions: {
-    display: 'flex',
-  }
+
 };
 
 
@@ -55,19 +49,21 @@ class LightsContainer extends Component {
     render(){
 	   const lightList = this.state.lights.map((light, i) => {
 		   	return(
-			   		<div className="lightCard" key={i} >
-			   			<Card>
-			   				<CardContent>
-			   					<Typography>
-			   					{light.name}
-			   					</Typography>
-			   					<Divider/>
-			   					<Typography>
-			   					{light.description}
-			   					</Typography>
-			   				</CardContent>
-			   			</Card>
-			   			<br/>
+			   		<div className="lightCardDiv" key={i} >
+					   			<Grid  rows={2}spacing={24} className="lightCard">
+					   				<Grid item >
+					   					<Card>
+					   					<Typography>
+					   					{light.name}
+					   					</Typography>
+					   					<Divider/>
+					   					<Typography>
+					   					{light.description}
+					   					</Typography>
+					   					</Card>
+					   				</Grid>
+					   			</Grid>
+					   			<br/>
 			   		</div>
 		   		)	
 	   })
