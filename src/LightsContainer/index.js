@@ -7,6 +7,23 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import './styles.css'
+
+const styles = {
+  card: {
+    maxWidth: 400,
+  },
+  media: {
+    height: 0,
+    paddingTop: '56.25%', // 16:9
+  },
+  actions: {
+    display: 'flex',
+  }
+};
+
 
 class LightsContainer extends Component {
 	constructor(){
@@ -38,26 +55,27 @@ class LightsContainer extends Component {
     render(){
 	   const lightList = this.state.lights.map((light, i) => {
 		   	return(
-		   		<div key={i}>
-		   			<h1>
-		   			{light.name}
-		   			</h1>
-		   		</div>
+			   		<div className="lightCard" key={i} >
+			   			<Card>
+			   				<CardContent>
+			   					<Typography>
+			   					{light.name}
+			   					</Typography>
+			   					<Divider/>
+			   					<Typography>
+			   					{light.description}
+			   					</Typography>
+			   				</CardContent>
+			   			</Card>
+			   			<br/>
+			   		</div>
 		   		)	
 	   })
     return(
 		    <div className="back">
-		    	<br />
-		    	<h1>This is where the light json data will go </h1>
-		      		
-		      			<h1>{lightList}</h1>
-		      		
-		      	<Divider />
-		      	<br />
-		      	<br />
-		      	<Divider />
+		      {lightList}
 		    </div>
     )
     }
 }
-export default LightsContainer;
+export default withStyles(styles)(LightsContainer);
