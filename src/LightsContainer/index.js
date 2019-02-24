@@ -9,14 +9,11 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper'
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import './styles.css'
-
-const styles = {
-
-};
 
 
 class LightsContainer extends Component {
@@ -46,32 +43,32 @@ class LightsContainer extends Component {
 	componentDidMount(){
 		this.getLights();
 	}
+
     render(){
-	   const lightList = this.state.lights.map((light, i) => {
 		   	return(
-			   		<div className="lightCardDiv" key={i} >
-					   			<Grid  rows={2}spacing={24} className="lightCard">
-					   				<Grid item >
-					   					<Card>
-					   					<Typography>
-					   					{light.name}
-					   					</Typography>
-					   					<Divider/>
-					   					<Typography>
-					   					{light.description}
-					   					</Typography>
-					   					</Card>
+			   		<div className="lightCardDiv" >
+			   			<GridList cellHeight={'auto'} className="lightCard" cols={4}>
+			   				{
+			   					this.state.lights.map((light, i) => (
+					   				<Grid key={i} cols={1}>
+					   					<Paper>
+						   					<Typography>
+						   					{light.name}
+						   					</Typography>
+						   					<Divider/>
+						   					<Typography>
+						   					{light.description}
+						   					</Typography>
+					   					</Paper>
 					   				</Grid>
-					   			</Grid>
+			   							
+			   					))
+			   				}
+			   			</GridList>
 					   			<br/>
 			   		</div>
 		   		)	
-	   })
-    return(
-		    <div className="back">
-		      {lightList}
-		    </div>
-    )
+
     }
 }
-export default withStyles(styles)(LightsContainer);
+export default LightsContainer;
