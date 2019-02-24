@@ -7,19 +7,22 @@ import Album from './Album'
 import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import CardComponent from './CardComponent'
+import ParallaxImage from './ParallaxImage'
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
+
 
 import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
 
 
-
-
 class App extends Component {
   render() {
     return (
+     <ParallaxProvider>
       <div className="App">         
-          
           <ButtonAppBar />
+          <ParallaxImage />
           <br />
           <br />
           <br />
@@ -152,7 +155,10 @@ class App extends Component {
           <br />
           <br />
           <br />
+
         </div>
+
+     </ParallaxProvider>
     );
   }
 }
