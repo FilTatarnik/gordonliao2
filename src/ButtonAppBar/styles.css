@@ -6,6 +6,7 @@
 }
 .appbar {
 	background-color: white;
+  position: fixed;
 }
 .logo {
 	height: 110px;

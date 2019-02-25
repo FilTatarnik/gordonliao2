@@ -10,7 +10,7 @@ class AboutContainer extends Component {
       	<Divider />
       	<br />
     
-      <br />
+        <br />
       	<Divider />
       	<Divider />
       	<Divider />
