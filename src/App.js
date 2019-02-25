@@ -19,10 +19,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <ParallaxProvider>
-      <div className="App">         
+     <ParallaxProvider className="wrapper">
+     <div className="App">  
+     <section className="firstParallax section parallax">       
           <ButtonAppBar />
-          <ParallaxImage />
           <br />
           <br />
           <br />
@@ -35,7 +35,9 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <LightingPictures />
+     </section>
+          <LightingPictures className="section"/>
+     <section className="secondParallax section parallax">
           <br />
           <br />
           <br />
@@ -60,7 +62,9 @@ class App extends Component {
           <br />
           <br />
           <br />
+     </section>
           <AboutContainer />
+     <section className="thirdParallax section parallax">
           <br />
           <br />
           <br />
@@ -90,11 +94,10 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <br />          
+          <br /> 
+     </section>
           <CardComponent />
-          <br />
-          <CardComponent />
-          <br />
+     <section className="fourthParallax section parallax">
           <br />
           <br />
           <br />
@@ -124,7 +127,11 @@ class App extends Component {
           <br />
           <br />
           <br />
+          <br />
+          <br />
+     </section>
           <LightsContainer />
+     <section className="fifthParallax section parallax">
           <br />
           <br />
           <br />
@@ -155,7 +162,7 @@ class App extends Component {
           <br />
           <br />
           <br />
-
+     </section>
         </div>
 
      </ParallaxProvider>

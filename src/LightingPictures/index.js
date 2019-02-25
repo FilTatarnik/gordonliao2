@@ -8,7 +8,7 @@ import './styles.css'
 class LightingPicture extends Component {
     render(){
         return(
-          <div className="back">
+          <div className="back section">
             <br />
               <h1 className="motivate">TO PROVIDE SYNERGY BETWEEN LIGHTING AND SOUND SERVICES </h1>
               <h1 className="motivate"> TO FULFILL OUR CUSTOMERS VISIONS AND NEEDS.</h1>
