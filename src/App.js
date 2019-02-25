@@ -8,10 +8,7 @@ import LightsContainer from './LightsContainer'
 import SpeakerContainer from './SpeakerContainer'
 import CardComponent from './CardComponent'
 import ParallaxImage from './ParallaxImage'
-import { ParallaxProvider } from 'react-scroll-parallax';
-import { Parallax } from 'react-scroll-parallax';
-
-
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
 
@@ -19,153 +16,34 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <ParallaxProvider className="wrapper">
-     <div className="App">  
-     <section className="firstParallax section parallax">       
+     <ParallaxProvider>
+     <div className="App wrapper">
+          <Parallax className="firstParallax section parallax">       
           <ButtonAppBar />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-     </section>
-          <LightingPictures className="section"/>
-     <section className="secondParallax section parallax">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-     </section>
-          <AboutContainer />
-     <section className="thirdParallax section parallax">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br /> 
-     </section>
-          <CardComponent />
-     <section className="fourthParallax section parallax">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-     </section>
-          <LightsContainer />
-     <section className="fifthParallax section parallax">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-     </section>
-        </div>
+          </Parallax>
 
+          <LightingPictures className="section"/>
+          
+          <Parallax className="secondParallax section parallax">
+          </Parallax>
+          
+          <AboutContainer />
+          
+          <Parallax className="thirdParallax section parallax">
+          </Parallax>
+          
+          <CardComponent />
+          
+          <Parallax className="fourthParallax section parallax">
+          </Parallax>
+          
+          <LightsContainer />
+          
+          <Parallax className="fifthParallax section parallax">
+          </Parallax>
+     </div>
      </ParallaxProvider>
+
     );
   }
 }

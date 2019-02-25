@@ -4,14 +4,11 @@ import { Parallax } from 'react-scroll-parallax';
 const ParallaxImage = () => (
     <Parallax
         className="parallaxImage"
-        offsetYMax={20}
-        offsetYMin={-20}
-        slowerScrollRate
-        maxWidth={'auto'}
-        maxHeight={'auto'}
+        offsetYMax={90}
+        offsetYMin={-90}
+        slowerScrollRate={true}
         tag="figure"
     >
-        <img src="https://i.imgur.com/cXGyLXr.jpg" />
     </Parallax>
 );
 export default ParallaxImage;
