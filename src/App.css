@@ -2,6 +2,7 @@
 .App {
   background-color: black;
   text-align: center;
+  
 }
 
 .route-wrapper {
@@ -29,6 +30,7 @@
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
+
   
 
 }
@@ -41,6 +43,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+
   
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
