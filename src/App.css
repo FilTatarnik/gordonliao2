@@ -39,6 +39,7 @@
 	/* Display and position the pseudo-element */
   content: " ";
   position: absolute;
+
   top: 0;
   right: 0;
   bottom: 0;
@@ -48,16 +49,16 @@
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1);
-  /* Force the background image to fill the whole element. */
   background-size: 100%;
+  transform: translateZ(-1px) scale(2);
+  /* Force the background image to fill the whole element. */
   /* Keep the image from overlapping sibling elements. */ 
   z-index: -1;
 }
 
 
 .firstParallax::after{
-  background-image: url("https://i.imgur.com/DCHDoqv.jpg");
+  background-image: url("https://i.imgur.com/heXTzGw.jpg");
 
 }
 .secondParallax::after{

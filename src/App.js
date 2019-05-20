@@ -21,9 +21,6 @@ class App extends Component {
 
               <LightingPictures/>
 
-
-              
-
          </div>
      </ParallaxProvider>
 
