@@ -15,7 +15,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbar color="red" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Promise Holdings LLC</strong>
         </MDBNavbarBrand>
