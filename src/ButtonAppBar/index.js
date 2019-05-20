@@ -82,11 +82,7 @@ function speakerScroll() {
             <Typography variant="h6" color="inherit" className={classes.grow}>
             </Typography>
 
-            <div id="home" >
-              <Button color="inherit" onClick={topScroll}>
-                <Link to='/home'>Home</Link>
-              </Button>
-            </div>
+
 
             <div id="about">
               <Button color="inherit" onClick={aboutScroll}>
@@ -96,13 +92,13 @@ function speakerScroll() {
 
             <div id="lights">
               <Button color="inherit" onClick={lightsScroll}>
-                <Link to='/lights'>Rentals</Link>
+                <Link to='/lights'>Team</Link>
               </Button>
             </div>
 
             <div id="speaker">
               <Button color="inherit" onClick={speakerScroll}>
-                <Link to='/speakers'>Contact</Link>
+                <Link to='/speakers'>Portfolio</Link>
               </Button>
             </div>
 
