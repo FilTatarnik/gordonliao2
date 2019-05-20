@@ -15,7 +15,8 @@ const TeamPage = () => {
           </p>
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-
+            <img src="https://i.pravatar.cc/300">
+            </img>
               <h5 className="font-weight-bold mt-4 mb-3">Anna Williams</h5>
               <p className="text-uppercase blue-text">Graphic designer</p>
               <p className="grey-text">
@@ -36,7 +37,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-
+            <img src="https://i.pravatar.cc/300"></img>
               <h5 className="font-weight-bold mt-4 mb-3">John Doe</h5>
               <p className="text-uppercase blue-text">Web Developer</p>
               <p className="grey-text">
@@ -54,7 +55,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-
+            <img src="https://i.pravatar.cc/300"></img>
               <h5 className="font-weight-bold mt-4 mb-3">Maria Smith</h5>
               <p className="text-uppercase blue-text">Photographer</p>
               <p className="grey-text">
@@ -75,7 +76,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-
+            <img src="https://i.pravatar.cc/300"></img>
               <h5 className="font-weight-bold mt-4 mb-3">Tom Adams</h5>
               <p className="text-uppercase blue-text">Backend Developer</p>
               <p className="grey-text">
