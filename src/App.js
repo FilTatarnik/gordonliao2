@@ -20,24 +20,10 @@ class App extends Component {
               </Parallax>
 
               <LightingPictures/>
+
+
               
-              <Parallax className="secondParallax section parallax">
-              </Parallax>
-              
-              <AboutContainer />
-              
-              <Parallax className="thirdParallax section parallax">
-              </Parallax>
-              
-              <CardComponent />
-              
-              <Parallax className="fourthParallax section parallax">
-              </Parallax>
-              
-              <LightsContainer />
-              
-              <Parallax className="fifthParallax section parallax">
-              </Parallax>
+
          </div>
      </ParallaxProvider>
 
