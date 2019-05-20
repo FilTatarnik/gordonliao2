@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import ButtonAppBar from './ButtonAppBar'
+import NavBar from './NavBar'
 import LightingPictures from './LightingPictures'
 import AboutContainer from './AboutContainer'
-import LightsContainer from './LightsContainer'
-import CardComponent from './CardComponent'
+import TeamComponent from './TeamComponent'
+import SimpleSlider from './SimpleSlider'
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import SocialMediaButtons from './SocialMediaButtons'
 import './App.css';
 
 
@@ -16,11 +15,9 @@ class App extends Component {
          <div className="App wrapper">
          
               <Parallax className="firstParallax section parallax">       
-              <ButtonAppBar />
+              <NavBar />
               </Parallax>
-
-              <LightingPictures/>
-
+              <TeamComponent/>
          </div>
      </ParallaxProvider>
 
