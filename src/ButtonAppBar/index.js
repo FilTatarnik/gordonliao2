@@ -21,7 +21,7 @@ render() {
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
+          <MDBNavbarNav right>
             <MDBNavItem active>
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
@@ -31,18 +31,14 @@ render() {
             <MDBNavItem>
               <MDBNavLink to="#!">Team</MDBNavLink>
             </MDBNavItem>
+
+              <MDBNavItem>
+              <MDBNavLink to="#!">Portfolio</MDBNavLink>
+            </MDBNavItem>
             <MDBNavItem>
             </MDBNavItem>
           </MDBNavbarNav>
-          <MDBNavbarNav right>
-            <MDBNavItem>
-              <MDBFormInline waves>
-                <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                </div>
-              </MDBFormInline>
-            </MDBNavItem>
-          </MDBNavbarNav>
+          
         </MDBCollapse>
       </MDBNavbar>
     );
