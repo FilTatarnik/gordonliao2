@@ -75,7 +75,8 @@ function speakerScroll() {
 
           <div className="logoclass">
             <Link to='/home' onClick={topScroll}>
-              <img className="logo" src="https://i.imgur.com/YMDoch1.png" alt=""/>
+            <h1>Promise Holdings LLC</h1>
+              <img className="logo" src='#' alt=""/>
             </Link>
           </div>
 
