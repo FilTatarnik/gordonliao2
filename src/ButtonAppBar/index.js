@@ -15,7 +15,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar color="red" dark expand="md">
+      <MDBNavbar color="indigo" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Promise Holdings LLC</strong>
         </MDBNavbarBrand>
@@ -23,17 +23,33 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
+              <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
+              <MDBNavLink to="#!">About</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="#!">Team</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  <span className="mr-2">Dropdown</span>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">
-                  <MDBNavbarBrand>
-          <strong className="white-text">(630) 232-1172</strong>
-        </MDBNavbarBrand>
+                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
                 </div>
               </MDBFormInline>
             </MDBNavItem>
