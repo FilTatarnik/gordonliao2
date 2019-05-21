@@ -10,5 +10,7 @@ const ParallaxImage = () => (
         tag="figure"
     >
     </Parallax>
+
+    
 );
 export default ParallaxImage;
