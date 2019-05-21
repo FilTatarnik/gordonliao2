@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
-import LightingPictures from './LightingPictures'
 import AboutContainer from './AboutContainer'
 import TeamComponent from './TeamComponent'
 import SimpleSlider from './SimpleSlider'
