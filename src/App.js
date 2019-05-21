@@ -23,8 +23,7 @@ class App extends Component {
             <Parallax className="secondParallax section parallax">
             </Parallax>
               <PortfolioComponent />
-              <TestimonialComponent />
-              <TestimonialComponent />
+
 
          </div>
      </ParallaxProvider>
