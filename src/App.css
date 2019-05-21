@@ -31,10 +31,6 @@
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
-  width: 100%;
-
-  
-
 }
 
 .parallax::after{
@@ -55,7 +51,7 @@
   transform: translateZ(-1px) scale(2);
   /* Force the background image to fill the whole element. */
   /* Keep the image from overlapping sibling elements. */ 
-  z-index: -1;
+  z-index: -2;
 }
 
 
@@ -66,6 +62,8 @@
 }
 .secondParallax::after{
 	background-image: url("https://i.imgur.com/jkKvJ6w.jpg");
+  background-repeat: no-repeat;
+
 }
 .thirdParallax::after{
   background-image: url(https://i.imgur.com/YAIGwFU.jpg);

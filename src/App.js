@@ -16,7 +16,12 @@ class App extends Component {
             <Parallax className="firstParallax section parallax">       
               <NavBar />
             </Parallax>
+            <br />
+            <br />
+            <br />
               <TeamComponent/>
+            <Parallax className="secondParallax section parallax">
+            </Parallax>
               <PortfolioComponent />
               <TestimonialComponent />
               <TestimonialComponent />
