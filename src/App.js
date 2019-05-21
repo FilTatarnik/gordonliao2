@@ -16,9 +16,9 @@ class App extends Component {
             <Parallax className="firstParallax section parallax">       
               <NavBar />
             </Parallax>
-
               <TeamComponent/>
               <PortfolioComponent />
+
               
          </div>
      </ParallaxProvider>

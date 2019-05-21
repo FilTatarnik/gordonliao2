@@ -1,5 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import './styles.css';
+
 
 const TeamPage = () => {
   return (

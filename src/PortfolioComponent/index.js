@@ -1,5 +1,7 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
+import './styles.css';
+
 
 const ProjectsPage = () => {
   return (

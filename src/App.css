@@ -61,6 +61,7 @@
 
 .firstParallax::after{
   background-image: url("https://i.imgur.com/heXTzGw.jpg");
+  background-repeat: no-repeat;
 
 }
 .secondParallax::after{
