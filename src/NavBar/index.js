@@ -1,48 +1,78 @@
 import React, { Component } from "react";
-import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
-} from "mdbreact";
+import logo from "../logo.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
+import TeamComponent from '../TeamComponent'
 
-class NavbarPage extends Component {
-state = {
-  isOpen: false
-};
+export default class Navbar extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-toggleCollapse = () => {
-  this.setState({ isOpen: !this.state.isOpen });
-}
-
-render() {
-  return (
-      <MDBNavbar color="red" dark expand="md">
-        <MDBNavbarBrand>
-          <strong className="white-text">Promise Holdings LLC</strong>
-        </MDBNavbarBrand>
-        <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav right>
-            <MDBNavItem active>
-              <MDBNavLink to="#!">Home</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#!">About</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#!">Team</MDBNavLink>
-            </MDBNavItem>
-
-              <MDBNavItem>
-              <MDBNavLink to="#!">Portfolio</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-            </MDBNavItem>
-          </MDBNavbarNav>
-          
-        </MDBCollapse>
-      </MDBNavbar>
+  render() {
+    return (
+      <nav className="nav" id="navbar">
+        <div className="nav-content">
+            <li className="nav-item">
+              <h1
+               
+                onClick={this.scrollToTop}
+                
+              >
+                Promise Holdings LLC
+              </h1>
+              </li>
+          <ul className="nav-items">
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Team
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Portfolio
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     );
   }
 }
-
-export default NavbarPage;

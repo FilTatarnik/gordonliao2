@@ -5,7 +5,7 @@ import './styles.css';
 
 const TeamPage = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
+    <MDBCard className="my-5 px-5 pb-5 text-center" id="section3">
         <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold my-5">
             Our amazing team
