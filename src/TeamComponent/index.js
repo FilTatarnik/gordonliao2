@@ -7,6 +7,7 @@ const TeamPage = () => {
   return (
   <wrapper className="team-body-wrapper">
     <div className="team-body">
+    <hr />
           <h2 className="h1-responsive font-weight-bold my-5 center" >
             Our amazing team
           </h2>
@@ -16,7 +17,7 @@ const TeamPage = () => {
             totam voluptas nostrum quisquam eum porro a pariatur veniam.
           </p>
           <MDBRow>
-            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
+            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5 column1">
             <img src="https://i.pravatar.cc/300">
             </img>
               <h5 className="font-weight-bold mt-4 mb-3">Gordon C.C. Liao</h5>
