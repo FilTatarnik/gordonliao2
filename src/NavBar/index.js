@@ -13,13 +13,13 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
             <li className="nav-item">
-              <h1
+              <Link className="header"
                
                 onClick={this.scrollToTop}
                 
               >
                 Promise Holdings LLC
-              </h1>
+              </Link>
               </li>
           <ul className="nav-items">
             <li className="nav-item">
