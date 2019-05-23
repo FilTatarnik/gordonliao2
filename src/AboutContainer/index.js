@@ -5,7 +5,8 @@ import './styles.css';
 class AboutContainer extends Component {
     render(){
         return(
-            <div className="aboutDiv">
+          <wrapper id="section2">
+            <div className="aboutDiv" >
               <h2>“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”
               </h2>
               <hr className="hr-light" />
@@ -19,6 +20,7 @@ class AboutContainer extends Component {
                 We also have a very flexible mandate as we invest in both late stage, mature businesses, as well as early stage start-ups. We can also invest a controlling stake, or a small, minority, non-control stake in businesses.  The only things we look for are:
               </h6>
             </div>
+          </wrapper>
         )
     }
 }

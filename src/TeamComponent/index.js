@@ -6,7 +6,8 @@ import './styles.css';
 const TeamPage = () => {
   return (
   <wrapper className="team-body-wrapper">
-    <div className="team-body">
+    <div className="team-body" id="section3" >
+    <hr />
           <h2 className="h1-responsive font-weight-bold my-5 center" >
             Our amazing team
           </h2>
