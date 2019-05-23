@@ -5,20 +5,14 @@ import './styles.css';
 
 const ProjectsPage = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center" id="section4">
-      <MDBCardBody id="section4">
         <section className="my-5">
-            <h2 className="h1-responsive font-weight-bold text-center my-5">
-              Our best projects
+      <hr />
+            <h2 className="h1-responsive font-weight-bold text-center my-5" id="section4">
+              Portfolio Companies
             </h2>
-            <p className="grey-text w-responsive text-center mx-auto mb-5">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              est laborum.
-            </p>
 
             <MDBRow>
+
               <MDBCol lg="5" className="mb-lg-0 mb-5">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Others/images/83.jpg"
@@ -26,26 +20,30 @@ const ProjectsPage = () => {
                   className="img-fluid rounded z-depth-1"
                 />
               </MDBCol>
+
               <MDBCol lg="7">
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
                     <MDBIcon far icon="chart-bar" size="2x" className="indigo-text" />
                   </MDBCol>
+
                   <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Marketing</h5>
+                    <h5 className="font-weight-bold mb-3">AKIRA</h5>
                     <p className="grey-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing.
                       Reprehenderit maiores nam, aperiam minima elit assumenda
                       voluptate velit.
                     </p>
                   </MDBCol>
+
                 </MDBRow>
+
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
                     <MDBIcon icon="music" size="2x" className="pink-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Entertainment</h5>
+                    <h5 className="font-weight-bold mb-3">Azalea Wang</h5>
                     <p className="grey-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing.
                       Reprehenderit maiores nam, aperiam minima elit assumenda
@@ -58,7 +56,7 @@ const ProjectsPage = () => {
                     <MDBIcon far icon="smile" size="2x" className="blue-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Communication</h5>
+                    <h5 className="font-weight-bold mb-3">Maya Romanoff</h5>
                     <p className="grey-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing.
                       Reprehenderit maiores nam, aperiam minima elit assumenda
@@ -76,7 +74,7 @@ const ProjectsPage = () => {
                     <MDBIcon icon="book" size="2x" className="cyan-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Education</h5>
+                    <h5 className="font-weight-bold mb-3">ESQ Clothing</h5>
                     <p className="grey-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing.
                       Reprehenderit maiores nam, aperiam minima elit assumenda
@@ -89,7 +87,7 @@ const ProjectsPage = () => {
                     <MDBIcon icon="code" size="2x" className="red-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Technology</h5>
+                    <h5 className="font-weight-bold mb-3">Stride Tool</h5>
                     <p className="grey-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing.
                       Reprehenderit maiores nam, aperiam minima elit assumenda
@@ -99,15 +97,6 @@ const ProjectsPage = () => {
                 </MDBRow>
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon far icon="money-bill-alt" size="2x" className="deep-purple-text" />
-                  </MDBCol>
-                  <MDBCol md="11" size="10">
-                    <h5 className="font-weight-bold mb-3">Finance</h5>
-                    <p className="grey-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing.
-                      Reprehenderit maiores nam, aperiam minima elit assumenda
-                      voluptate velit.
-                    </p>
                   </MDBCol>
                 </MDBRow>
               </MDBCol>
@@ -119,9 +108,12 @@ const ProjectsPage = () => {
                 />
               </MDBCol>
             </MDBRow>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           </section>
-        </MDBCardBody>
-      </MDBCard>
   );
 }
 
