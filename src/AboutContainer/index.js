@@ -5,6 +5,7 @@ import './styles.css';
 class AboutContainer extends Component {
     render(){
         return(
+          
           <wrapper id="section2">
             <div className="aboutDiv" >
               <h2>“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”
