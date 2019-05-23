@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
-import Divider from '@material-ui/core/Divider';
+import './styles.css';
+
 
 class AboutContainer extends Component {
     render(){
         return(
-    <div className="back">
-    <br />
-      <h1>Rentals </h1>
-      	<Divider />
-      	<br />
-    
-        <br />
-      	<Divider />
-      	<Divider />
-      	<Divider />
-      	<h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      	</h2>
-    </div>
+            <div className="aboutDiv">
+              <h2>“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”
+              </h2>
+              <hr className="hr-light" />
+              <h6>
+                Promise Holdings is a private investment firm focused on investing in small businesses, primarily in the consumer sector, with a special emphasis in food, fashion & beauty. 
+              </h6>
+              <h6>
+                We are not a Private Equity or Venture Capital firm so do not look to sell within 3 to 5 years. Instead we have a very long-term hold orientation and may never sell in certain instances.
+              </h6>
+              <h6>
+                We also have a very flexible mandate as we invest in both late stage, mature businesses, as well as early stage start-ups. We can also invest a controlling stake, or a small, minority, non-control stake in businesses.  The only things we look for are:
+              </h6>
+            </div>
         )
     }
 }

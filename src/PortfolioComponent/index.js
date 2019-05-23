@@ -5,8 +5,8 @@ import './styles.css';
 
 const ProjectsPage = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
-      <MDBCardBody>
+    <MDBCard className="my-5 px-5 pb-5 text-center" id="section4">
+      <MDBCardBody id="section4">
         <section className="my-5">
             <h2 className="h1-responsive font-weight-bold text-center my-5">
               Our best projects
