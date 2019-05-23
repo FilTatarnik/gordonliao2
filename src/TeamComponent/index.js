@@ -5,8 +5,9 @@ import './styles.css';
 
 const TeamPage = () => {
   return (
-    <div>
-          <h2 className="h1-responsive font-weight-bold my-5">
+  <wrapper className="team-body-wrapper">
+    <div className="team-body">
+          <h2 className="h1-responsive font-weight-bold my-5 center" >
             Our amazing team
           </h2>
           <p className="grey-text w-responsive  mb-5">
@@ -15,7 +16,7 @@ const TeamPage = () => {
             totam voluptas nostrum quisquam eum porro a pariatur veniam.
           </p>
           <MDBRow>
-            <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
             <img src="https://i.pravatar.cc/300">
             </img>
               <h5 className="font-weight-bold mt-4 mb-3">Gordon C.C. Liao</h5>
@@ -40,7 +41,7 @@ const TeamPage = () => {
               </ul>
             </MDBCol>
 
-            <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
             <img src="https://i.pravatar.cc/300"></img>
               <h5 className="font-weight-bold mt-4 mb-3">Patrick J. Turpin</h5>
               <p className="text-uppercase blue-text">Operating Advisor (Co-founder & former COO, PopChips)</p>
@@ -65,6 +66,7 @@ const TeamPage = () => {
             
           </MDBRow>
     </div>
+  </wrapper>
   );
 }
 

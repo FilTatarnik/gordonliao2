@@ -5,3 +5,10 @@
 .teamCardBody {
 	background-color: red;
 }
+.team-body-wrapper {
+	text-align: center;
+
+}
+.team-body {
+	display: inline-block;
+}
