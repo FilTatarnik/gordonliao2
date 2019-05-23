@@ -13,7 +13,7 @@ class App extends Component {
 
   render() {
     return (
-         <div className="App wrapper">
+         <div className="App">
           <NavBar />
               <AboutContainer />    
               <TeamComponent id="section3" />
