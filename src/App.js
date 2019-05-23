@@ -13,16 +13,12 @@ class App extends Component {
 
   render() {
     return (
-     <ParallaxProvider>
-          <NavBar />
          <div className="App wrapper">
-            <Parallax className="firstParallax parallax">   
+          <NavBar />
               <AboutContainer />    
               <TeamComponent id="section3" />
               <PortfolioComponent id="section4"/>
-            </Parallax>
          </div>
-     </ParallaxProvider>
     );
   }
 }
