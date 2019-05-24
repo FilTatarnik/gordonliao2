@@ -14,7 +14,7 @@ const TeamPage = () => {
           </h2>
           <MDBRow>
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5 column1">
-            <img src="https://i.pravatar.cc/300">
+            <img src="https://i.imgur.com/M0TyGTPb.png">
             </img>
               <h5 className="font-weight-bold mt-4 mb-3">Gordon C.C. Liao</h5>
               <p className="text-uppercase blue-text">Founder & Partner</p>
@@ -39,7 +39,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
-            <img src="https://i.pravatar.cc/300"></img>
+            <img src="https://i.imgur.com/pbCgNUSb.png"></img>
               <h5 className="font-weight-bold mt-4 mb-3">Patrick J. Turpin</h5>
               <p className="text-uppercase blue-text">Operating Advisor (Co-founder & former COO, PopChips)</p>
               <p className="grey-text">
