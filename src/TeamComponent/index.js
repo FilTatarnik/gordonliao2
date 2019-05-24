@@ -6,17 +6,12 @@ import './styles.css';
 const TeamPage = () => {
   return (
   <wrapper className="team-body-wrapper">
+    
     <div className="team-body" id="section3" >
 
-    <hr />
           <h2 className="h1-responsive font-weight-bold my-5 center" >
-            Our amazing team
+            Meet The Team
           </h2>
-          <p className="grey-text w-responsive  mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
-          </p>
           <MDBRow>
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5 column1">
             <img src="https://i.pravatar.cc/300">
@@ -68,7 +63,7 @@ const TeamPage = () => {
             
           </MDBRow>
     </div>
-  </wrapper>
+  // </wrapper>
   );
 }
 
