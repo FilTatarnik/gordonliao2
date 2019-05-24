@@ -23,7 +23,7 @@ const JumbotronPage = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={1000}
               >
                 <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Learn more</MDBBtn>
                  </Link>

@@ -29,7 +29,8 @@ export default class Navbar extends Component {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={1000}
+
               >
                 About
               </Link>
@@ -41,7 +42,8 @@ export default class Navbar extends Component {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={1000}
+                
               >
                 Team
               </Link>
@@ -53,7 +55,7 @@ export default class Navbar extends Component {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={1000}
               >
                 Portfolio
               </Link>
