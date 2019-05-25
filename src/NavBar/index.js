@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
-import TeamComponent from '../TeamComponent'
 
 export default class Navbar extends Component {
   scrollToTop = () => {

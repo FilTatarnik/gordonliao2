@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from "mdbreact";
+import { MDBJumbotron, MDBBtn, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from "mdbreact";
 import { Link, animateScroll as scroll } from "react-scroll";
 import './styles.css'
 
