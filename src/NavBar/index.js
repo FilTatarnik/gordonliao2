@@ -12,7 +12,7 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-            <li className="nav-item">
+            <li className="nav-item" >
               <Link className="header"
                
                 onClick={this.scrollToTop}
@@ -21,7 +21,7 @@ export default class Navbar extends Component {
                 Promise Holdings LLC
               </Link>
               </li>
-          <ul className="nav-items">
+          <ul className="nav-items" >
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -30,7 +30,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-
               >
                 About
               </Link>
@@ -43,7 +42,6 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                
               >
                 Team
               </Link>

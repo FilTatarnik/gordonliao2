@@ -5,8 +5,9 @@ import './styles.css';
 
 const ProjectsPage = () => {
   return (
+
     <div id="section4">
-        <section className="my-8">
+        <section className="my-8" style={{ padding: '100px'}}>
       <hr />
             <h2 className="h1-responsive font-weight-bold text-center my-5">
               Portfolio Companies
@@ -111,6 +112,8 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
           <br />
           </section>
           </div>
+
+
   );
 }
 
