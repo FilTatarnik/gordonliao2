@@ -5,6 +5,7 @@ import AboutContainer from './AboutContainer'
 import TeamComponent from './TeamComponent'
 // import SimpleSlider from './SimpleSlider'
 import PortfolioComponent from './PortfolioComponent'
+import FooterComponent from './FooterComponent'
 // import TestimonialComponent from './TestimonialComponent'
 // import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import './App.css';
@@ -18,6 +19,7 @@ class App extends Component {
               <AboutContainer />    
               <TeamComponent id="section3" />
               <PortfolioComponent id="section4"/>
+              <FooterComponent />
          </div>
     );
   }
