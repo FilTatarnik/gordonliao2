@@ -26,7 +26,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
       <div id="section2">
         <header>
           
-            <MDBNavbar color="bg-warning" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbar color="#039be5 light-blue darken-1" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand>
                 <strong>    <Link className="header"
                
