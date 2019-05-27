@@ -16,7 +16,7 @@ class App extends Component {
     return (
          <div className="App">
           <NavBar />
-              <AboutContainer />    
+              
               <TeamComponent id="section3" />
               <PortfolioComponent id="section4"/>
               <FooterComponent />
