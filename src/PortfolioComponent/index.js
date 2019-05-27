@@ -7,7 +7,7 @@ const ProjectsPage = () => {
   return (
 
     <div id="section4">
-        <section className="my-8" style={{ padding: '100px'}}>
+        <section className="my-8">
       <hr />
             <h2 className="h1-responsive font-weight-bold text-center my-5">
               Portfolio Companies
