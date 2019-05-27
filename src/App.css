@@ -1,8 +1,9 @@
 
 .header {
   font-size: 30px;
+  color: black;
   font-weight: bold;
-  display: inline;
+  /*display: inline;*/
 }
 :root {
   --off-white: #fafafa;

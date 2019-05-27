@@ -27,6 +27,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
         <header>
           
             <MDBNavbar color="#039be5 light-blue darken-1" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbarNav class="text-monospace" left>
               <MDBNavbarBrand>
                 <strong>
                 <Link className="header"
@@ -36,6 +37,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
               </Link>
               </strong>
               </MDBNavbarBrand>
+              </MDBNavbarNav>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
