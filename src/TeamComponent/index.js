@@ -12,7 +12,7 @@ const TeamPage = () => {
     <div className="team-body" id="section3" >
 
           <h2 className="h1-responsive font-weight-bold my-5 center" >
-            Meet The Team
+            The Team
           </h2>
           <MDBRow>
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5 column1" alt="">

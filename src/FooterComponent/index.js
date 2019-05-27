@@ -19,16 +19,11 @@ const FooterPage = () => {
             </p>
           </MDBCol>
           <MDBCol md="6">
-            <h4 className="title"><strong>Follow us</strong></h4>
+            <h4 className="title"><strong>Follow</strong></h4>
             <MDBBtn size="md" gradient="indigo" a href="https://www.linkedin.com/in/gordon-chun-ching-liao-802330/"><MDBIcon fab icon="linkedin" size="5x" /></MDBBtn>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-        </MDBContainer>
-      </div>
     </MDBFooter>
   );
 }
