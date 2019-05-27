@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView, MDBCardTitle, MDBBtn, MDBIcon } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView, MDBCardTitle, MDBBtn, MDBIcon } from 'mdbreact';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class FullPageIntroWithFixedTransparentNavbar extends React.Component {
@@ -28,52 +28,72 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
           
             <MDBNavbar color="#039be5 light-blue darken-1" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand>
-                <strong>    <Link className="header"
-               
-                onClick={this.scrollToTop}
-                
-              >
+                <strong>
+                <Link className="header"
+                  onClick={this.scrollToTop}
+                  >
                 Promise Holdings LLC
-              </Link></strong>
+              </Link>
+              </strong>
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav left>
+                <MDBNavbarNav right>
                   <MDBNavItem active>
-                                <Link
-                activeClass="active"
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                About
-              </Link>
+                  <strong>
+                    <Link
+                      activeClass="active"
+                      to="section2"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={1000}
+                    >
+                      About
+                    </Link>
+                  </strong>
                   </MDBNavItem>
                   <MDBNavItem>
-                          <Link
-                activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                Team
-              </Link>
+                  <strong>
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={1000}
+                    >
+                      Team
+                    </Link>
+                    </strong>
                   </MDBNavItem>
                   <MDBNavItem>
-                             <Link
-                activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                Portfolio
-              </Link>
+                  <strong>
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={1000}
+                    >
+                      Portfolio
+                    </Link>
+                    </strong>
+                    </MDBNavItem>
+                     <MDBNavItem>
+                     <strong>
+                      <Link
+                        activeClass="active"
+                        to="section5"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                      >
+                        Contact
+                      </Link>
+                      </strong>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>

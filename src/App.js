@@ -19,7 +19,7 @@ class App extends Component {
               
               <TeamComponent id="section3" />
               <PortfolioComponent id="section4"/>
-              <FooterComponent />
+              <FooterComponent id="section5" />
          </div>
     );
   }
