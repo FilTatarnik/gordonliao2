@@ -70,11 +70,7 @@
   height: 100vh;
   padding: 0px;
 }
-.card-body {
-  /*margin: 0 auto;*/
-  /*height: 100vh;*/
-  padding: 0px;
-}
+
 .section {
   /* Needed for children to be absolutely positioned relative to the parent. */
   /*position: relative;*/
