@@ -1,50 +1,52 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBMask, MDBView, MDBCardTitle, MDBBtn, MDBIcon } from 'mdbreact';
+import { MDBContainer, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./styles.css"
 
-class FullPageIntroWithFixedTransparentNavbar extends React.Component {
+class FixedNavbarExample extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {
-      collapse: false,
-      isWideEnough: false,
-    };
-    this.onClick = this.onClick.bind(this);
+      super(props);
+      this.state = {
+          collapse: false,
+      };
+      this.onClick = this.onClick.bind(this);
   }
 
   onClick() {
     this.setState({
-      collapse: !this.state.collapse,
-    });
+        collapse: !this.state.collapse,
+      });
   }
     scrollToTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
-    return (
-      <div id="section2">
-        <header>
-          
-            <MDBNavbar color="#039be5 light-blue darken-1" fixed="top" dark expand="md" scrolling transparent>
-            
-              <MDBNavbarBrand>
+    const bgPink = {backgroundColor: '#e91e63'}
+    const joshSucks = {backgroundColor: '#ffffff'}
+    const container = {height: 1300}
+    return(
+      <div>
+        
+          <header>
+            <MDBNavbar style={joshSucks} dark expand="md" scrolling fixed="top">
+              <MDBNavbarBrand href="/">
                 <strong>
-                <Link className="header"
-                  onClick={this.scrollToTop}
-                  >
+                  <Link className="black-text"
+               
+                onClick={this.scrollToTop}
+                
+              >
                 Promise Holdings LLC
               </Link>
               </strong>
               </MDBNavbarBrand>
-              
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-              <MDBCollapse isOpen={this.state.collapse} navbar>
+              <MDBNavbarToggler onClick={ this.onClick } />
+              <MDBCollapse isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
                   <strong>
-                    <Link
+                      <Link className="black-text"
                       activeClass="active"
                       to="section2"
                       spy={true}
@@ -58,7 +60,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                   <strong>
-                    <Link
+                    <Link className="black-text"
                       activeClass="active"
                       to="section3"
                       spy={true}
@@ -72,7 +74,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
                   </MDBNavItem>
                   <MDBNavItem>
                   <strong>
-                    <Link
+                    <Link className="black-text"
                       activeClass="active"
                       to="section4"
                       spy={true}
@@ -83,10 +85,10 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
                       Portfolio
                     </Link>
                     </strong>
-                    </MDBNavItem>
-                     <MDBNavItem>
-                     <strong>
-                      <Link
+                  </MDBNavItem>
+                  <MDBNavItem>
+                    <strong>
+                      <Link className="black-text"
                         activeClass="active"
                         to="section5"
                         spy={true}
@@ -99,34 +101,14 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
                       </strong>
                   </MDBNavItem>
                 </MDBNavbarNav>
+     
               </MDBCollapse>
             </MDBNavbar>
-          
-
-          <MDBView src="https://mdbootstrap.com/img/Photos/Others/gradient1.jpg">
-            <MDBMask className="flex-center flex-column text-white text-center">
-                     <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold"><h2 className="topper">“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”</h2></MDBCardTitle>
-                <p className="mx-5 mb-5">Promise Holdings is a private investment firm focused on investing in small businesses, primarily in the consumer sector, with a special emphasis in food, fashion & beauty. We are not a Private Equity or Venture Capital firm so do not look to sell within 3 to 5 years. Instead we have a very long-term hold orientation and may never sell in certain instances. We also have a very flexible mandate as we invest in both late stage, mature businesses, as well as early stage start-ups. <strong>We can also invest a controlling stake, or a small, minority, non-control stake in businesses.  The only things we look for are:</strong></p><h3>Great people with high integrity, openness and character</h3><br/><h3>Fun people because we like to have a good time</h3><br/><h3>Good ideas</h3>
-                <br/>
-                  
-              <Link
-                activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                <MDBBtn outline color="white" className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Learn more</MDBBtn>
-                 </Link>
-            
-            </MDBMask>
-          </MDBView>
-        </header>
-
+          </header>
+        
       </div>
     );
   }
 }
 
-export default FullPageIntroWithFixedTransparentNavbar;
+export default FixedNavbarExample;
