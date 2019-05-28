@@ -8,6 +8,9 @@
 :root {
   --off-white: #fafafa;
 }
+div.col {
+  padding: 0px;
+}
 .nav-items {
     font-size: 20px;
   display: inline;
