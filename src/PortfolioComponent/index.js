@@ -17,7 +17,7 @@ const ProjectsPage = () => {
 
               <MDBCol lg="5" className="mb-lg-0 mb-5">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Others/images/83.jpg"
+                  src="https://i.imgur.com/aSdzwhS.jpg"
                   alt=""
                   className="img-fluid rounded z-depth-1"
                 />
@@ -99,7 +99,7 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
               </MDBCol>
               <MDBCol lg="5">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg"
+                  src="https://i.imgur.com/AmiLuHQ.jpg"
                   alt=""
                   className="img-fluid rounded z-depth-1"
                 />
