@@ -26,7 +26,7 @@ const ProjectsPage = () => {
               <MDBCol lg="7">
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon far icon="chart-bar" size="2x" className="indigo-text" />
+                    <MDBIcon icon="tshirt" size="2x" className="indigo-text" />
                   </MDBCol>
 
                   <MDBCol md="11" size="10">
@@ -40,7 +40,7 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
 
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon icon="music" size="2x" className="pink-text" />
+                    <MDBIcon icon="shoe-prints" size="2x" className="pink-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
                     <h5 className="font-weight-bold mb-3">Azalea Wang</h5>
@@ -53,7 +53,7 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
                 </MDBRow>
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon far icon="smile" size="2x" className="blue-text" />
+                    <MDBIcon fab icon="sketch" size="2x" className="blue-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
                     <h5 className="font-weight-bold mb-3">Maya Romanoff</h5>
@@ -69,7 +69,7 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
               <MDBCol lg="7">
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon icon="book" size="2x" className="cyan-text" />
+                    <MDBIcon icon="cut" size="2x" className="cyan-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
                     <h5 className="font-weight-bold mb-3">ESQ Clothing</h5>
@@ -83,7 +83,7 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
                 </MDBRow>
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
-                    <MDBIcon icon="code" size="2x" className="red-text" />
+                    <MDBIcon icon="tools" size="2x" className="red-text" />
                   </MDBCol>
                   <MDBCol md="11" size="10">
                     <h5 className="font-weight-bold mb-3">Stride Tool</h5>
