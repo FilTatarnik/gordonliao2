@@ -22,6 +22,9 @@
 .logoclass {
 	text-decoration: none;
 }
+.navbar-toggler-icon {
+  color: black;
+}
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Monoton|Playfair+Display+SC");
 a {
   color: white;

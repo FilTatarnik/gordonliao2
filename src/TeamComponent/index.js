@@ -22,21 +22,13 @@ const TeamPage = () => {
               <p className="text-uppercase blue-text">Founder & Partner</p>
               <p className="grey-text">
                   A life-long resident of the Chicago area (originally from the far Southside), Gordon is an independent entrepreneur, investor, operator and performer.  He is a Co-founder and Partner of investment firms Promise Holdings LLC, Modjule LLC, Seismic CPG LLC and 4C Capital LLC, also founding and serving in operational roles in both control buyouts and early stage start-ups, primarily in the Consumer space. Among his companies where he is a co-owner and active board member/observer of, include Hickory Farms, Gateway Newsstands, SwingKing, HairClinical and AKIRA.
+                  <br/>
+                  <br/>
                   <AboutModal />
 
               
               </p>
-              <ul className="list-unstyled mb-0">
-                <a href="#!" className="p-2 fa-lg">
-                  <MDBIcon fab icon="facebook-f" className="blue-text" />
-                </a>
-                <a href="#!" className="p-2 fa-lg">
-                  <MDBIcon fab icon="twitter" className="blue-text" />
-                </a>
-                <a href="#!" className="p-2 fa-lg">
-                  <MDBIcon fab icon="instagram" className="blue-text" />
-                </a>
-              </ul>
+         
             </MDBCol>
 
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
@@ -46,23 +38,17 @@ const TeamPage = () => {
               <p className="grey-text">
                   Pat is an accomplished senior executive who has successfully concepted and launched revenue-generating retail channel businesses and brands.  Pat brings over 25 years of consumer products and retail industry experience.
                   Most recently Pat was CEO of a startup beverage brand Kona Deep, where he was brought in to launch the first desalinated deep ocean water brand in North America.
+                  <br/>
+                  <br/>
                   <AboutModal2 />
                   
               </p>
-              <ul className="list-unstyled mb-0">
-                <a href="#!" className="p-2 fa-lg">
-                  <MDBIcon fab icon="facebook-f" className="blue-text" />
-                </a>
-                <a href="#!" className="p-2 fa-lg">
-                  <MDBIcon fab icon="instagram" className="blue-text" />
-                </a>
-              </ul>
             </MDBCol>
 
             
           </MDBRow>
     </div>
-  // </wrapper>
+   </wrapper>
   );
 }
 

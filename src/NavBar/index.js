@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import './styles.css'
 class FixedNavbarExample extends React.Component {
   constructor(props) {
       super(props);
@@ -25,12 +25,13 @@ class FixedNavbarExample extends React.Component {
     const bgPink = {backgroundColor: '#e91e63'}
     const joshSucks = {backgroundColor: '#ffffff'}
     const container = {height: 1300}
+    const hamburger = {backgroundColor: '#42a5f5'}
     return(
       <div>
         
           <header>
             <MDBNavbar style={joshSucks} dark expand="md" scrolling fixed="top">
-              <MDBNavbarBrand href="/">
+              <MDBNavbarBrand color="blue">
                 <strong>
                   <Link className="black-text"
                
@@ -41,8 +42,8 @@ class FixedNavbarExample extends React.Component {
               </Link>
               </strong>
               </MDBNavbarBrand>
-              <MDBNavbarToggler onClick={ this.onClick } />
-              <MDBCollapse isOpen = { this.state.collapse } navbar>
+              <MDBNavbarToggler style={hamburger} onClick={ this.onClick } />
+              <MDBCollapse color="default" isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem active>
                   <strong>
