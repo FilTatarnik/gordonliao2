@@ -32,7 +32,7 @@ const TeamPage = () => {
             </MDBCol>
 
             <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
-            <img src="https://i.imgur.com/pbCgNUSb.png"></img>
+            <img src="https://i.imgur.com/pbCgNUSb.png?1"></img>
               <h5 className="font-weight-bold mt-4 mb-3">Patrick J. Turpin</h5>
               <p className="text-uppercase blue-text">Operating Advisor (Co-founder & former COO, PopChips)</p>
               <p className="grey-text">
