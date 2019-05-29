@@ -12,17 +12,7 @@ const ProjectsPage = () => {
             <h2 className="h1-responsive font-weight-bold text-center my-5">
               Portfolio Companies
             </h2>
-
             <MDBRow>
-
-              <MDBCol lg="5" className="mb-lg-0 mb-5">
-                <img
-                  src="https://i.imgur.com/aSdzwhS.jpg"
-                  alt=""
-                  className="img-fluid rounded z-depth-1"
-                />
-              </MDBCol>
-
               <MDBCol lg="7">
                 <MDBRow className="mb-3">
                   <MDBCol md="1" size="2">
@@ -96,13 +86,6 @@ AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park nei
                   <MDBCol md="1" size="2">
                   </MDBCol>
                 </MDBRow>
-              </MDBCol>
-              <MDBCol lg="5">
-                <img
-                  src="https://i.imgur.com/AmiLuHQ.jpg"
-                  alt=""
-                  className="img-fluid rounded z-depth-1"
-                />
               </MDBCol>
             </MDBRow>
           <br />

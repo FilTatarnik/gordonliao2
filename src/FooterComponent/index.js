@@ -1,10 +1,11 @@
 import React from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
+import './styles.css';
 
 const FooterPage = () => {
   return (
-    <MDBFooter color="#039be5 light-blue darken-1" className="font-small pt-4 mt-4" id="section5">
-      <MDBContainer fluid className="text-center">
+    <MDBFooter color="light-blue darken-1" className="font-small pt-4 mt-4" id="section5" style={{width: '110%'}}>
+      <MDBContainer className="text-center">
         <MDBRow>
           <MDBCol md="6">
             <h4 className="title"><strong>Contact</strong></h4>
