@@ -38,7 +38,7 @@ class FixedNavbarExample extends React.Component {
                 onClick={this.scrollToTop}
                 
               >
-                Promise Holdings LLC
+                promise holdings llc
               </Link>
               </strong>
               </MDBNavbarBrand>
