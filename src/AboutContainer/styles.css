@@ -25,13 +25,12 @@ h3 {
 	font-style: italic;
 	font-weight: bolder;
 	/*border: 1px solid black;*/
-	padding: 0 30px 100px 30px;
-	margin: 0 200px 0 200px;
+	
 }
 .feet {
 	padding: 0px;
 	margin: 0px;
 }
 #aboutstuff {
-	padding: 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
