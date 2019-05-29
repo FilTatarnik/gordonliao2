@@ -12,7 +12,7 @@ const MediaObjectPage = () => {
     <MDBMedia list className="mt-3">
       <MDBMedia tag="li">
         <MDBMedia left href="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">
-          <MDBMedia object src="https://i.imgur.com/zZ0ELPym.png" alt="Generic placeholder image" />
+          <MDBMedia object src="https://i.imgur.com/XaeQSu0m.jpg?1" alt="Generic placeholder image" />
         </MDBMedia>
         <MDBMedia body>
           <MDBMedia heading>
@@ -51,7 +51,7 @@ const MediaObjectPage = () => {
       <br/>
        <MDBMedia tag="li">
         <MDBMedia left href="https://www.esqclothing.com/">
-          <MDBMedia object src="https://i.imgur.com/whbTabzm.png" alt="Generic placeholder image" />
+          <MDBMedia object src="https://i.imgur.com/PpTxn9Mm.png?1" alt="Generic placeholder image" />
         </MDBMedia>
         <MDBMedia body>
           <MDBMedia heading>
@@ -64,7 +64,7 @@ const MediaObjectPage = () => {
       <br/>
         <MDBMedia tag="li">
         <MDBMedia left href="https://stridetool.com/">
-          <MDBMedia object src="https://i.imgur.com/O3LS9qFm.png" alt="Generic placeholder image" />
+          <MDBMedia object src="https://i.imgur.com/O3LS9qFm.png?1" alt="Generic placeholder image" />
         </MDBMedia>
         <MDBMedia body>
           <MDBMedia heading>
