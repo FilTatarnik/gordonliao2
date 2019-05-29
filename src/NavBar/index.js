@@ -38,7 +38,7 @@ class FixedNavbarExample extends React.Component {
                 onClick={this.scrollToTop}
                 
               >
-                promise holdings llc
+                <strong><h2>promise holdings llc</h2></strong>
               </Link>
               </strong>
               </MDBNavbarBrand>
@@ -55,7 +55,7 @@ class FixedNavbarExample extends React.Component {
                       offset={-70}
                       duration={1000}
                     >
-                      About
+                      <strong>About</strong>
                     </Link>
                   </strong>
                   </MDBNavItem>
@@ -69,7 +69,7 @@ class FixedNavbarExample extends React.Component {
                       offset={-70}
                       duration={1000}
                     >
-                      Team
+                      <strong>Team</strong>
                     </Link>
                     </strong>
                   </MDBNavItem>
@@ -83,7 +83,7 @@ class FixedNavbarExample extends React.Component {
                       offset={-70}
                       duration={1000}
                     >
-                      Portfolio
+                      <strong>Portfolio</strong>
                     </Link>
                     </strong>
                   </MDBNavItem>
@@ -97,7 +97,7 @@ class FixedNavbarExample extends React.Component {
                         offset={-70}
                         duration={1000}
                       >
-                        Contact
+                        <strong>Contact</strong>
                       </Link>
                       </strong>
                   </MDBNavItem>
