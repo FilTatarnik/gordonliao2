@@ -14,10 +14,9 @@ const JumbotronPage = () => {
 
             <MDBCol className="text-black text-center py-5 px-4 my-8">
               <MDBCol className="py-5">
-                <p className="mx-5 mb-5"></p><h3>“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”</h3>
+                <p className="mx-5 mb-5"></p><h3 className="aboutH3">“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”</h3>
                 <br />
                 <br/>
-
                 <br />
                 </MDBCol>
                 </MDBCol>
