@@ -54,6 +54,11 @@ const JumbotronPage = () => {
       </MDBRow>
       </div>
     
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     </div>
   )
 }
