@@ -12,7 +12,7 @@ const JumbotronPage = () => {
           <MDBJumbotron style={{ padding: 0 }} id="about-image">
           <div>
 
-            <MDBCol className="text-black text-center py-5 px-4 my-8">
+            <MDBCol className="text-black text-center py-5 px-4 my-8" id="aboutstuff">
               <MDBCol className="py-5">
                 <p className="mx-5 mb-5"></p><h3 className="aboutH3">“Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”</h3>
                 <br />
@@ -21,7 +21,7 @@ const JumbotronPage = () => {
                 </MDBCol>
                 </MDBCol>
 
-                <MDBCol className="text-white text-center py-5 px-4 my-8">
+                <MDBCol style={{ padding: 0 }} className="text-white text-center py-5 px-4 my-8">
                 <MDBCol>
                   <div id="about-text" >
                     <h4>Great people with high integrity, openness and character</h4>
