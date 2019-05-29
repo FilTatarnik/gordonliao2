@@ -11,16 +11,29 @@
 div.col {
   padding: 0px;
 }
+#section5 {
+  padding: 20px;
+}
+div {
+  padding: 0px;
+}
+hr {
+  margin: 0px 0px;
+}
 .nav-items {
     font-size: 20px;
   display: inline;
   margin-left: 2rem;
   margin: 0 auto;
 }
+html {
+  padding: 0px 0px;
+}
 .nav {
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
+  padding: 0px 0px;
   width: 100%;
   height: 60px;
   z-index: 1000;

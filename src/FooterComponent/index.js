@@ -1,8 +1,10 @@
 import React from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
+import './styles.css'
 
 const FooterPage = () => {
   return (
+    <div className="feet">
     <MDBFooter color="#039be5 light-blue darken-1" className="font-small pt-4 mt-4" id="section5">
       <MDBContainer fluid className="text-center">
         <MDBRow>
@@ -25,6 +27,7 @@ const FooterPage = () => {
         </MDBRow>
       </MDBContainer>
     </MDBFooter>
+    </div>
   );
 }
 
