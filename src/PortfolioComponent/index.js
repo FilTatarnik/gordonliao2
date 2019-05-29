@@ -37,7 +37,7 @@ const MediaObjectPage = () => {
       <br/>
       <br/>
       <MDBMedia tag="li">
-        <MDBMedia left href="#">
+        <MDBMedia left href="http://www.mayaromanoff.com/">
           <MDBMedia object src="https://i.imgur.com/TDMJRVfm.png" alt="Generic placeholder image" />
         </MDBMedia>
         <MDBMedia body>
