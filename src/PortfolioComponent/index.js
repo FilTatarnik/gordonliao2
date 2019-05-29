@@ -41,6 +41,28 @@ const MediaObjectPage = () => {
           Maya Romanoff is the largest manufacturer of handcrafted wallcoverings in the United States. For more than 40 years, their artisans have incorporated glass beads, gold leaf, seashells, wood and stitching right in their Chicago studio. <a href="http://www.mayaromanoff.com/">mayaromanoff.com</a>
         </MDBMedia>
       </MDBMedia>
+       <MDBMedia tag="li">
+        <MDBMedia left href="https://www.esqclothing.com/">
+          <MDBMedia object src="https://i.imgur.com/whbTabzm.png" alt="Generic placeholder image" />
+        </MDBMedia>
+        <MDBMedia body>
+          <MDBMedia heading>
+            ESQ Clothing
+          </MDBMedia>
+          The ESQ garment is the pinnacle of men's tailoring as an art. It represents the countless hours and the tireless men and women whom have achieved the highest level of sartorial excellence. From your initial fitting and pattern making, to the final button sewn and ironing process, the ESQ suit renders itself an unmatched dream garment. <a href="https://www.esqclothing.com/">esqclothing.com</a>
+        </MDBMedia>
+      </MDBMedia>
+        <MDBMedia tag="li">
+        <MDBMedia left href="https://stridetool.com/">
+          <MDBMedia object src="https://i.imgur.com/O3LS9qFm.png" alt="Generic placeholder image" />
+        </MDBMedia>
+        <MDBMedia body>
+          <MDBMedia heading>
+           Stride Tool
+          </MDBMedia>
+          We are a worldwide designer and manufacturer of specialty hand tools for the professional and DIY market. Our flagship brand, Imperial® has been a pioneer in the manufacturing of brass valves and fittings, and developed into the worldwide leader of innovative products serving the HVAC/R service and tube working tool industries. <a href="https://stridetool.com/">stridetool.com</a>
+        </MDBMedia>
+      </MDBMedia>
     </MDBMedia>
     </div>
   );
