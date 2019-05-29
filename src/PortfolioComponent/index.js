@@ -18,6 +18,7 @@ const MediaObjectPage = () => {
           <MDBMedia heading>
             <strong><h2>Akira</h2></strong>
           </MDBMedia>
+          
             AKIRA first opened in 2002 as one Women's boutique in the trendy Wicker Park neighborhood of Chicago and is owned by Eric Hsueh, Erikka Wang, Sarah Hughes, and Gordon Liao. AKIRA offers a full-line of Women's clothing, footwear, and accessories, carrying brands such as adidas, Champion, I.AM.GIA and even our own private labels. Over the years, AKIRA has expanded to 27 stores (with more stores on the way!), and a website serving customers around the world. <a href="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">Akira.com</a>
           </MDBMedia>
       </MDBMedia>
