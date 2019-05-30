@@ -12,3 +12,15 @@
 .header {
 	text-align: center;
 }
+.akira {
+	padding: 10px;
+}
+#stride {
+	border: 1px solid Gainsboro
+}
+#port-body {
+
+	display: inline-block;
+	padding: 0px;
+	text-align: center
+}

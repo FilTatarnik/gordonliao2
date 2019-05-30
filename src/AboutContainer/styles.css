@@ -21,6 +21,9 @@ h4 {
 #about-text {
 	padding: 0px;
 }
+h2 {
+	/*font-style: italic;*/
+}
 h3 {
 
 	font-style: italic;
