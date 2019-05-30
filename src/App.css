@@ -9,10 +9,13 @@
   --off-white: #fafafa;
 }
 div.col {
+  padding: 0px 0px 0px 0px;
+}
+.footer {
   padding: 0px;
 }
 #section5 {
-  padding: 20px;
+  padding: 0px 0px;
 }
 div {
   padding: 0px;
@@ -33,13 +36,15 @@ html {
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
-  padding: 0px 0px;
+  padding: 20px 20px;
   width: 100%;
   height: 60px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
-
+#section4 {
+  padding: 20px;
+}
 .nav-logo {
   display: inline;
   height: 100px;

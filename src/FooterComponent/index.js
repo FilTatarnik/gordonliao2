@@ -5,8 +5,8 @@ import './styles.css'
 const FooterPage = () => {
   return (
     <div className="feet">
-    <MDBFooter color="light-blue" className="font-small pt-4 mt-4" id="section5">
-      <MDBContainer fluid className="text-center">
+    <MDBFooter style={{ margin: 0 }} color="light-blue" className="font-small pt-4 mt-4" id="section5">
+      <MDBContainer style={{ margin: 0 }} fluid className="text-center">
 
         <MDBRow>
           <MDBCol md="6">
