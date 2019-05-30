@@ -15,7 +15,7 @@ const gridExamplesPage = () => {
           <br/>
     <MDBContainer>
       <MDBRow className="d-flex justify-content-center">
-        <MDBCol size="6" sm="6" lg="4">
+        <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
           <img className="akira" src="https://i.imgur.com/XaeQSu0m.jpg?1"/>
         </MDBCol>
 
@@ -27,7 +27,7 @@ const gridExamplesPage = () => {
       </MDBRow>
       <br/>
         <MDBRow className="d-flex justify-content-center">
-        <MDBCol size="6" sm="6" lg="4">
+        <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
           <img className="akira" src="https://i.imgur.com/HEXzhF3m.png"/>
         </MDBCol>
 
@@ -39,8 +39,8 @@ const gridExamplesPage = () => {
       </MDBRow>
       <br/>
       <MDBRow className="d-flex justify-content-center">
-        <MDBCol size="6" sm="6" lg="4">
-          <img className="akira" src="https://i.imgur.com/HEXzhF3m.png"/>
+        <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
+          <img className="akira" src="https://i.imgur.com/TDMJRVfm.png"/>
         </MDBCol>
 
         <MDBCol size="12" sm="6" lg="8">
@@ -53,8 +53,8 @@ const gridExamplesPage = () => {
       </MDBRow>
       <br/>
       <MDBRow className="d-flex justify-content-center">
-        <MDBCol size="6" sm="6" lg="4">
-          <img className="akira" src="https://i.imgur.com/PpTxn9Mm.png?1"/>
+        <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
+          <img id="esq" className="akira" src="https://i.imgur.com/PpTxn9Mm.png?1"/>
         </MDBCol>
 
         <MDBCol size="12" sm="6" lg="8">
@@ -67,8 +67,9 @@ const gridExamplesPage = () => {
       </MDBRow>
       <br/>
       <MDBRow className="d-flex justify-content-center">
-        <MDBCol size="6" sm="6" lg="4">
+        <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
           <img id="stride" className="akira" src="https://i.imgur.com/O3LS9qFm.png?1"/>
+          <br/>
         </MDBCol>
 
         <MDBCol size="12" sm="6" lg="8">
