@@ -15,7 +15,7 @@ const JumbotronPage = () => {
 
                 <MDBCol  className="text-black text-center py-5 px-4 my-8" id="aboutstuff">
                   <MDBCol  className="py-5">
-                  <h1 id="port-body" className="h1-responsive font-weight-bold my-5 center d-flex justify-content-center" >
+                  <h1 id="landing" className="h1-responsive font-weight-bold my-5 center d-flex justify-content-center" >
             “Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”
           </h1>
                   

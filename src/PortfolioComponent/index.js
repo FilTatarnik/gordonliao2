@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBNavLink } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import "./styles.css"
 
 const gridExamplesPage = () => {
@@ -22,7 +22,6 @@ const gridExamplesPage = () => {
         <MDBCol size="12" sm="6" lg="8">
         <h2 className="d-flex justify-content-center">AKIRA</h2>
         <p className="d-flex justify-content-center">         First opened in 2002 as one Women's boutique in the trendy Wicker Park neighborhood of Chicago and is owned by Eric Hsueh, Erikka Wang, Sarah Hughes, and Gordon Liao. AKIRA offers a full-line of Women's clothing, footwear, and accessories, carrying brands such as adidas, Champion, I.AM.GIA and even our own private labels.</p> <a href="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">Akira.com</a>
-        <MDBNavLink active to="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">Akira.com</MDBNavLink>
         
         </MDBCol>
       </MDBRow>
