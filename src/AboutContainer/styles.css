@@ -22,13 +22,20 @@ h4 {
 	padding: 0px;
 }
 h3 {
+
 	font-style: italic;
 	font-weight: bolder;
 	/*border: 1px solid black;*/
-	padding: 0 30px 100px 30px;
-	margin: 0 200px 0 200px;
+	/*padding: 0 30px 100px 30px;*/
+	/*margin: 0 200px 0 200px;*/
 }
 .feet {
 	padding: 0px;
 	margin: 0px;
+}
+@media(max-width:1023px)
+{
+ h3 {
+    padding: 35px;
+ }
 }
