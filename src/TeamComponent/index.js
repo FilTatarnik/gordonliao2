@@ -14,8 +14,7 @@ const TeamPage = () => {
           <h2 className="h1-responsive font-weight-bold my-5 center" >
             The Team
           </h2>
-          <MDBRow>
-            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5 column1" alt="">
+            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5" style={{maxWidth: "100%"}} alt="">
             <img src="https://i.imgur.com/M0TyGTPb.png">
             </img>
               <h5 className="font-weight-bold mt-4 mb-3">Gordon C.C. Liao</h5>
@@ -34,7 +33,6 @@ const TeamPage = () => {
           
 
             
-          </MDBRow>
     </div>
    </wrapper>
   );
