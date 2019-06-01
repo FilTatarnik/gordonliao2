@@ -31,19 +31,7 @@ const TeamPage = () => {
          
             </MDBCol>
 
-            <MDBCol lg="6" md="6" className="mb-lg-0 mb-5">
-            <img src="https://i.imgur.com/pbCgNUSb.png?1"></img>
-              <h5 className="font-weight-bold mt-4 mb-3">Patrick J. Turpin</h5>
-              <p className="text-uppercase blue-text">Operating Advisor (Co-founder & former COO, PopChips)</p>
-              <p className="grey-text">
-                  Pat is an accomplished senior executive who has successfully concepted and launched revenue-generating retail channel businesses and brands.  Pat brings over 25 years of consumer products and retail industry experience.
-                  Most recently Pat was CEO of a startup beverage brand Kona Deep, where he was brought in to launch the first desalinated deep ocean water brand in North America.
-                  <br/>
-                  <br/>
-                  <AboutModal2 />
-                  
-              </p>
-            </MDBCol>
+          
 
             
           </MDBRow>
