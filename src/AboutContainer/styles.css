@@ -1,9 +1,5 @@
 #about-image {
-   background-image: linear-gradient(bottom, #039be5 50%, #ffffff 50%);
-background-image: -o-linear-gradient(bottom, #039be5 50%, #ffffff 50%);
-background-image: -moz-linear-gradient(bottom, #039be5 50%, #ffffff 50%);
-background-image: -webkit-linear-gradient(bottom, #039be5 50%, #ffffff 50%);
-background-image: -ms-linear-gradient(bottom, #039be5 50%, #ffffff 50%);
+
 }
 #about-text {
 	/*display: fill;*/

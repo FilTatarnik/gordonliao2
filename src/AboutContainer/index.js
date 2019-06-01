@@ -15,44 +15,15 @@ const JumbotronPage = () => {
 
                 <MDBCol  className="text-black text-center py-5 px-4 my-8" id="aboutstuff">
                   <MDBCol  className="py-5">
-                  <h1 id="landing" className="h1-responsive font-weight-bold my-5 center d-flex justify-content-center" >
-            “Promise Holdings was created to help small companies reach their promise or potential, while always living and adding value with trust & integrity. That is our promise”
-          </h1>
+                  <h3 id="landing" className="h3-responsive my-5 center d-flex justify-content-center" >
+            “Promise Holdings is a consumer-focused private investment firm created to help high potential companies, and high potential people, reach their fullest Promise.  Our only investment criteria are:(a) Great people, (b) Great ideas, and (c) Great fun. Our Promise to everyone we come into contact with - is that we always work with high integrity, high energy, high impact and high trust."
+          </h3>
                   
                    
                     <br />
                     </MDBCol>
                     </MDBCol>
-                    
-
-                    <MDBCol className="text-white text-center py-5 px-4 my-8">
-                    <MDBCol>
-                      <div id="about-text" >
-                        <h4>Great people with high integrity, openness and character</h4>
-                      <br/>
-                        <h4>Fun people because we like to have a good time</h4>
-                      <br/>
-                        <h4>Good ideas</h4>
-                      <br/>
-                        <li className="nav-item">
-                          <Link
-                            activeClass="active"
-                            to="section3"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={1000}>
-                            <MDBBtn outline color="white" className="mb-5">
-                              <MDBIcon icon="clone" className="mr-2">
-                              </MDBIcon> Learn more
-                            </MDBBtn>
-                            </Link>
-                        </li>
-                      </div>
-                  </MDBCol>
-                </MDBCol>
-
-            </div>
+          </div>
 
           </MDBJumbotron>
         </MDBCol>
