@@ -15,7 +15,7 @@ const JumbotronPage = () => {
 
                 <MDBCol  className="text-black text-center py-5 px-4 my-8" id="aboutstuff">
                   <MDBCol  className="py-5">
-                  <h5 id="landing" className="h5-responsive my-5 center" >
+                  <h5 id="landing" className="h5-responsive my-5 center text-white font-weight-bold" >
             “Promise Holdings is a consumer-focused private investment firm created to help high potential companies, and high potential people, reach their fullest Promise.  Our only investment criteria are:(a) Great people, (b) Great ideas, and (c) Great fun. Our <u>Promise</u> to everyone we come into contact with - is that we always work with high integrity, high energy, high impact and high trust."
           </h5>
                   

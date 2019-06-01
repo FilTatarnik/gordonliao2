@@ -37,6 +37,9 @@ h3 {
  }*/
 #aboutstuff {
 	padding: 0px 0px 0px 0px;
+	background-image: url("https://i.imgur.com/DoDkkqd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 h1 {
 	font-style: italic;
