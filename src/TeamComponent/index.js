@@ -8,9 +8,7 @@ import './styles.css';
 const TeamPage = () => {
   return (
   <wrapper className="team-body-wrapper">
-    
     <div className="team-body" id="section3" >
-
           <h2 className="h1-responsive font-weight-bold my-5 center" >
             The Team
           </h2>
@@ -24,15 +22,8 @@ const TeamPage = () => {
                   <br/>
                   <br/>
                   <AboutModal />
-
-              
               </p>
-         
-            </MDBCol>
-
-          
-
-            
+            </MDBCol>    
     </div>
    </wrapper>
   );
