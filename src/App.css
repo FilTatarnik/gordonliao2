@@ -10,6 +10,10 @@
 }
 div.col {
   padding: 0px 0px 0px 0px;
+  background-image: url("https://i.imgur.com/DoDkkqd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-filter: blur(15px);
 }
 .footer {
   padding: 0px;
