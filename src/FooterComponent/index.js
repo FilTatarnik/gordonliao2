@@ -12,7 +12,7 @@ const FooterPage = () => {
           <MDBCol md="6">
             <h4 className="title"><strong>Contact</strong></h4>
             <p>
-              Gordon Liao
+              Gordon C.C. Liao
             </p>
             <p>
               (312) 543 3789

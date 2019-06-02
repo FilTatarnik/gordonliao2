@@ -29,17 +29,39 @@ h2 {
 h3 {
 	font-style: italic;
 	font-weight: bolder;
+	/*padding-top: 80px;*/
+	position: relative;
+	top: 60px;
+	text-shadow:
+		-0.5px -0.5px 0 #000,
+		0px -0.5px 0 #000,
+		-0.5px -1px 0 #000,
+		0.5px 0px 0 #000;
+
+
+
+	/*border: 1px solid black;*/
 }
 .feet {
 	padding: 0px;
 	margin: 0px;
 }
 
-.landing {
+#aboutstuff {
+	padding: 0px 0px 0px 0px;
+	/*background-image: url("https://i.imgur.com/DoDkkqd.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*filter: blur(15px);*/
 }
 h1 {
 	font-style: italic;
 }
-.textDiv{
-	position: relative;
+.bg-image {
+/*background-image: url("https://i.imgur.com/DoDkkqd.jpg");*/
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*filter: blur(8px);*/
+
 }
