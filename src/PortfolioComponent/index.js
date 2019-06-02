@@ -7,7 +7,7 @@ const gridExamplesPage = () => {
     <div id="section4">
     <hr/>
     <h2 id="port-body" className="h1-responsive font-weight-bold my-5 center d-flex justify-content-center" >
-            Portfolio Companies
+            Companies
           </h2>
           <br/>
           <br/>
@@ -21,7 +21,7 @@ const gridExamplesPage = () => {
 
         <MDBCol size="12" sm="6" lg="8">
         <h2 className="d-flex justify-content-center">AKIRA</h2>
-        <p className="d-flex justify-content-center">         First opened in 2002 as one Women's boutique in the trendy Wicker Park neighborhood of Chicago and is owned by Eric Hsueh, Erikka Wang, Sarah Hughes, and Gordon Liao. AKIRA offers a full-line of Women's clothing, footwear, and accessories, carrying brands such as adidas, Champion, I.AM.GIA and even our own private labels.</p> <a href="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">Akira.com</a>
+        <p className="d-flex justify-content-center">         First opened in 2002 as one Women's boutique in the trendy Wicker Park neighborhood of Chicago and is owned by Eric Hsueh, Erikka Wang, Sarah Hughes, and Gordon Liao. AKIRA offers a full-line of Women's clothing, footwear, and accessories, carrying brands such as adidas, Champion, I.AM.GIA and even our own private labels.</p> <a href="https://www.shopakira.com/?gclid=CjwKCAjw27jnBRBuEiwAdjQXDLvGOPPIwYJEUeojpZvbo08evdfrlRExYbkTmIaVw-kPUNFeXNS8ghoCdx8QAvD_BwE">shopakira.com</a>
         
         </MDBCol>
       </MDBRow>
