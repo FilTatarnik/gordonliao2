@@ -83,7 +83,7 @@ class FixedNavbarExample extends React.Component {
                       offset={-70}
                       duration={1000}
                     >
-                      <strong>Portfolio</strong>
+                      <strong>Companies</strong>
                     </Link>
                     </strong>
                   </MDBNavItem>
