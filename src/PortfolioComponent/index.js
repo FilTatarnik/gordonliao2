@@ -49,7 +49,7 @@ const gridExamplesPage = () => {
         
         </MDBCol>
       </MDBRow>
-      <br/>
+      <br/> 
       <MDBRow className="d-flex justify-content-center">
         <MDBCol className="d-flex justify-content-center" size="6" sm="6" lg="4">
           <img id="esq" className="akira" src="https://i.imgur.com/PpTxn9Mm.png?1"/>
