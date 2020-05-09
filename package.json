@@ -2,7 +2,7 @@
   "name": "watts_lighting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Filtatarnik.github.io/gordonliao",
+  "homepage": "http://Promise-holdings.com",
   "dependencies": {
     "@material-ui/core": "^3.6.2",
     "@material-ui/icons": "^3.0.1",
@@ -41,6 +41,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-social-icons": "^3.1.0"
+    "react-social-icons": "^3.1.0",
+    
   }
 }
